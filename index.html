@@ -1021,8 +1021,8 @@
             
             // 수시/정시에 따라 계열 드롭다운 메뉴 렌더링
             const tracksByPeriod = {
-                '수시': ['일반계열', '실기/예체능', '의예과', '치의예과', '약학과', '한의예과', '수의예과'],
-                '정시': ['일반계열', '의예과', '치의예과', '약학과', '수의예과']
+                '수시': ['일반계열', '실기/예체능', '의약계열', '의예과', '치의예과', '약학과', '한의예과', '수의예과'],
+                '정시': ['일반계열', '의약계열', '의예과', '치의예과', '약학과', '수의예과']
             };
             
             (tracksByPeriod[currentPeriod] || []).forEach(t => {
@@ -1142,7 +1142,14 @@
                 if (d.period !== currentPeriod) return false;
                 if (region && d.region !== region) return false;
                 if (type && d.type !== type) return false;
-                if (track && d.track !== track) return false;
+                
+                // Track 필터 검사. 드롭다운의 값과 내부 데이터값을 맞추기 위해 변환
+                if (track) {
+                    let mapTrack = track;
+                    if (track === '의약계열') mapTrack = '의치약한수계열';
+                    if (d.track !== mapTrack) return false;
+                }
+                
                 if (csat && !d.hasCsat) return false;
                 
                 // Multi-keyword AND search
