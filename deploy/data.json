@@ -1,0 +1,2332 @@
+[
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "감리교신학대",
+    "type": "교과",
+    "name": "기초생활수급권자 및 차상위계층",
+    "recruitNum": "4",
+    "method": "학생부 80+면접20",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "강서대",
+    "type": "교과",
+    "name": "기회균등할당제",
+    "recruitNum": "10",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "경기대",
+    "type": "교과",
+    "name": "기초생활수급자 등 선발",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "국민대",
+    "type": "종합",
+    "name": "기회균형Ⅱ",
+    "recruitNum": "57",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "덕성여대",
+    "type": "종합",
+    "name": "기회균형Ⅰ 기초생활수급자 등",
+    "recruitNum": "20",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "삼육대",
+    "type": "종합",
+    "name": "기회균형Ⅱ",
+    "recruitNum": "11",
+    "method": "1단계(4배수): 서류100 2단계: 1단계60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "과학기술대",
+    "type": "종합",
+    "name": "기회균형 (기회균등 )",
+    "recruitNum": "86",
+    "method": "1단계(3배수): 서류100 2단계: 1단계70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "교대",
+    "type": "종합",
+    "name": "기회균형특별 Ⅱ",
+    "recruitNum": "19",
+    "method": "1단계(2배수): 서류100 2단계: 1단계50+면접50",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "기독대",
+    "type": "교과",
+    "name": "기초생활수급자 및 차상위계층",
+    "recruitNum": "3",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "한영대",
+    "type": "교과",
+    "name": "기초생활수급자 , 차상위계층 , 한부모가족지원대상자",
+    "recruitNum": "5",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "성공회대",
+    "type": "교과",
+    "name": "기회균형선발",
+    "recruitNum": "15",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "장로회신학대",
+    "type": "종합",
+    "name": "기회균형선발제",
+    "recruitNum": "2",
+    "method": "서류60.61+ 면접39.39",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "중앙대",
+    "type": "종합",
+    "name": "기회균형 (기초생활 수급자 및 차상위계층 )",
+    "recruitNum": "74",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "총신대",
+    "type": "종합",
+    "name": "기초생활수급자 및 차상위계층",
+    "recruitNum": "16",
+    "method": "1단계(3배수): 서류100 2단계: 1단계70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "한국성서대",
+    "type": "교과",
+    "name": "기초생활수급자 및 차상위",
+    "recruitNum": "7",
+    "method": "학생부 70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "홍익대",
+    "type": "종합",
+    "name": "기초생활수급자 , 차상위계층",
+    "recruitNum": "30",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "인천",
+    "university": "경인교대",
+    "type": "",
+    "name": "(인천)종합 저소득층학생",
+    "recruitNum": "18",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "인천",
+    "university": "가톨릭대",
+    "type": "",
+    "name": "(송도)교과 기회균형",
+    "recruitNum": "5",
+    "method": "학생부 60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "강남대",
+    "type": "",
+    "name": "(용인)교과 기초차상위",
+    "recruitNum": "58",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "경기대",
+    "type": "",
+    "name": "(수원)교과 기초생활수급자 등 선발",
+    "recruitNum": "39",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "국립한국교통대",
+    "type": "",
+    "name": "(의왕) 교과 기회균등제",
+    "recruitNum": "6",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "단국대",
+    "type": "",
+    "name": "(죽전)종합 교육기회배려자",
+    "recruitNum": "74",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "대진대",
+    "type": "",
+    "name": "(포천)교과 기초생활수급권자 및 차상위계층",
+    "recruitNum": "19",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "동양대",
+    "type": "",
+    "name": "(동두천 )교과 사회적배려자",
+    "recruitNum": "6",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "신학대",
+    "type": "",
+    "name": "(부천)교과 기회균형선발",
+    "recruitNum": "16",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "성결대",
+    "type": "",
+    "name": "(안양)교과 고른기회Ⅱ",
+    "recruitNum": "26",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "신한대",
+    "type": "",
+    "name": "(동두천 )교과 교육기회균형",
+    "recruitNum": "3",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "신한대",
+    "type": "",
+    "name": "(의정부 )교과 교육기회균형",
+    "recruitNum": "21",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "아신대",
+    "type": "",
+    "name": "(양평)교과 기회균형선발",
+    "recruitNum": "7",
+    "method": "학생부 60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "안양대",
+    "type": "",
+    "name": "(안양)교과 기회균형",
+    "recruitNum": "15",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "용인대",
+    "type": "",
+    "name": "(용인)교과 기초생활수급자 및 차상위계층 특별",
+    "recruitNum": "10",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "을지대",
+    "type": "",
+    "name": "(성남)교과 기회균형",
+    "recruitNum": "12",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "을지대",
+    "type": "",
+    "name": "(의정부 )교과 기회균형",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "중앙대",
+    "type": "",
+    "name": "(다빈치 )종합 기회균형 (기초생활수급자 및 차상위계층 )",
+    "recruitNum": "9",
+    "method": "서류100 차 의과학대 (포천)종",
+    "note": "합 기회균등특별 7 서류100"
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "칼빈대",
+    "type": "",
+    "name": "(용인)교과 저소득층인재특별",
+    "recruitNum": "2",
+    "method": "학생부 55+면접45",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "평택대",
+    "type": "",
+    "name": "(평택)교과 기초생활수급자 등",
+    "recruitNum": "19",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "한경국립대",
+    "type": "",
+    "name": "(안성)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "9",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "한경국립대",
+    "type": "",
+    "name": "(평택)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "1",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "한신대",
+    "type": "",
+    "name": "(오산)교과 기회균형선발",
+    "recruitNum": "26",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "협성대",
+    "type": "",
+    "name": "(화성)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "20",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "화성의과학대",
+    "type": "",
+    "name": "(화성)교과 기초생활수급자 및 차상위계층 , 한부모가족",
+    "recruitNum": "6",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "가톨릭관동대",
+    "type": "",
+    "name": "(강릉)교과 기초생활 및 차상위",
+    "recruitNum": "37",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "국립강릉원주대",
+    "type": "",
+    "name": "(강릉)종합 저소득",
+    "recruitNum": "21",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "국립강릉원주대",
+    "type": "",
+    "name": "(원주)종합 저소득",
+    "recruitNum": "5",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "경동대",
+    "type": "",
+    "name": "(원주문막 )교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "(31)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "상지대",
+    "type": "",
+    "name": "(원주)종합 교육기회균등",
+    "recruitNum": "24",
+    "method": "서류80+학생부 20",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "연세대",
+    "type": "",
+    "name": "(미래)종합 기초생활연세한마음",
+    "recruitNum": "30",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "춘천교대",
+    "type": "",
+    "name": "(춘천)종합 기초생활수급자 및 차상위계층",
+    "recruitNum": "5",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "한라대",
+    "type": "",
+    "name": "(원주)교과 기회균형",
+    "recruitNum": "15",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "한림대",
+    "type": "",
+    "name": "(춘천)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "27",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "건양대",
+    "type": "",
+    "name": "(대전)교과 기초생활수급자 및 차상위계층 , 한부모가족",
+    "recruitNum": "12",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "국립한밭대",
+    "type": "",
+    "name": "(대전)교과 사회적배려자",
+    "recruitNum": "24",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "대전대",
+    "type": "",
+    "name": "(대전)교과 기회균형",
+    "recruitNum": "16",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "목원대",
+    "type": "",
+    "name": "(대전)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "35",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "배재대",
+    "type": "",
+    "name": "(대전)교과 기초생활수급자 및 차상위계층특별",
+    "recruitNum": "42",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "우송대",
+    "type": "",
+    "name": "(대전)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "25",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "충남대",
+    "type": "",
+    "name": "(대전)종합종합Ⅲ (저소득층학생 )",
+    "recruitNum": "70",
+    "method": "1단계(3배수): 서류100 2단계: 1단계66.7+ 면접33.3",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "한남대",
+    "type": "",
+    "name": "(대전)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "39",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "세종",
+    "university": "홍익대",
+    "type": "",
+    "name": "(세종)종합 기초생활수급자 , 차상위계층",
+    "recruitNum": "14",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "건양대",
+    "type": "",
+    "name": "(논산)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "공주교대",
+    "type": "",
+    "name": "(공주)종합 기회균형선발",
+    "recruitNum": "5",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "나사렛대",
+    "type": "",
+    "name": "(천안)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "22",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "남서울대",
+    "type": "",
+    "name": "(천안)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "40",
+    "method": "학생부 60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "단국대",
+    "type": "",
+    "name": "(천안)종합 교육기회배려자",
+    "recruitNum": "71",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "백석대",
+    "type": "",
+    "name": "(천안)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "54",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "선문대",
+    "type": "",
+    "name": "(아산)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "41",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "순천향대",
+    "type": "",
+    "name": "(아산)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "49",
+    "method": "학생부 100 종",
+    "note": "합 4 서류100"
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "유원대",
+    "type": "",
+    "name": "(아산)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "2",
+    "method": "학생부 60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "중부대",
+    "type": "",
+    "name": "(금산)교과 기초생활수급자 및 차상위계층자 , 한부모가족",
+    "recruitNum": "(36)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "청운대",
+    "type": "",
+    "name": "(홍성)교과 기초생활수급자",
+    "recruitNum": "(3)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "한서대",
+    "type": "",
+    "name": "(서산)교과 기회균형선발",
+    "recruitNum": "(22)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "한서대",
+    "type": "",
+    "name": "(태안)교과 기회균형선발",
+    "recruitNum": "(22)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "호서대",
+    "type": "",
+    "name": "(아산)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "(48)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "호서대",
+    "type": "",
+    "name": "(천안)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "(48)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "가톨릭꽃동네대",
+    "type": "",
+    "name": "(청주)교과 경제배려대상자",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "건국대",
+    "type": "",
+    "name": "(글로컬 )교과 기초생활 및 차상위",
+    "recruitNum": "33",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "국립한국교통대",
+    "type": "",
+    "name": "(증평)교과 기회균등제",
+    "recruitNum": "3",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "국립한국교통대",
+    "type": "",
+    "name": "(충주)교과 기회균등제",
+    "recruitNum": "22",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "극동대",
+    "type": "",
+    "name": "(음성)교과 기회균형",
+    "recruitNum": "15",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "서원대",
+    "type": "",
+    "name": "(청주)교과 기회균등",
+    "recruitNum": "30",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "세명대",
+    "type": "",
+    "name": "(제천)교과 기초생활수급자 및 차상위계층 , 한부모가족",
+    "recruitNum": "35",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "유원대",
+    "type": "",
+    "name": "(영동)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "16",
+    "method": "학생부 60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "청주교대",
+    "type": "",
+    "name": "(청주)종합 기회균형선발제",
+    "recruitNum": "8",
+    "method": "1단계(3배수): 서류100 2단계: 1단계60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "청주대",
+    "type": "",
+    "name": "(청주)교과 기회균형",
+    "recruitNum": "30",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "충북대",
+    "type": "",
+    "name": "(청주)교과 경제배려대상자",
+    "recruitNum": "73",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "한국교원대",
+    "type": "",
+    "name": "(청주)종합 기초수급 및 차상위계층 특별",
+    "recruitNum": "19",
+    "method": "1단계(3배수): 서류100 2단계: 1단계80+면접20",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "경북대",
+    "type": "",
+    "name": "(대구)종합 기초생활수급자 등",
+    "recruitNum": "41",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "교대",
+    "type": "",
+    "name": "(대구)종합 사회배려자 특별",
+    "recruitNum": "6",
+    "method": "1단계(2배수): 서류100 2단계: 1단계70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "경북대",
+    "type": "",
+    "name": "(상주)종합 기초생활수급자 등",
+    "recruitNum": "12",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "국립경국대",
+    "type": "",
+    "name": "(안동)교과 사회배려대상자",
+    "recruitNum": "23",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "경운대",
+    "type": "",
+    "name": "(구미)교과 기회균형 2",
+    "recruitNum": "17",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "경일대",
+    "type": "",
+    "name": "(경산)교과 기회균형선발",
+    "recruitNum": "28",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "김천대",
+    "type": "",
+    "name": "(김천)교과 기회균형",
+    "recruitNum": "19",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "가톨릭대",
+    "type": "",
+    "name": "(경산)교과 기회균형선발",
+    "recruitNum": "35",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "대구대",
+    "type": "",
+    "name": "(경산)교과 기회균형Ⅱ",
+    "recruitNum": "57",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "한의대",
+    "type": "",
+    "name": "(경산)종합 기초 및 차상위계층",
+    "recruitNum": "31",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "동국대",
+    "type": "",
+    "name": "(WISE)교과 기회균형Ⅱ",
+    "recruitNum": "36",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "동양대",
+    "type": "",
+    "name": "(영주)교과 사회적배려자",
+    "recruitNum": "8",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "신경주대",
+    "type": "",
+    "name": "(경주)교과 기회균형선발",
+    "recruitNum": "28",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "영남신학대",
+    "type": "",
+    "name": "(경산)교과 기초생활수급자",
+    "recruitNum": "3",
+    "method": "학생부 60+면접40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "위덕대",
+    "type": "",
+    "name": "(경주)교과 기회균형선발제",
+    "recruitNum": "8",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "포항공과대",
+    "type": "",
+    "name": "(포항)종합 기회균형 저소득층",
+    "recruitNum": "10",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "한동대",
+    "type": "",
+    "name": "(포항)종합 기초생활 및 차상위",
+    "recruitNum": "17",
+    "method": "1단계(2.5배수): 서류100 2단계: 1단계70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "경성대",
+    "type": "",
+    "name": "(부산)교과 저소득층",
+    "recruitNum": "62",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "고신대",
+    "type": "",
+    "name": "(부산)교과 사회배려자",
+    "recruitNum": "17",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "국립부경대",
+    "type": "",
+    "name": "(부산)교과 미래인재",
+    "recruitNum": "55",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "국립한국해양대",
+    "type": "",
+    "name": "(부산)교과 기회균형선발",
+    "recruitNum": "24",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "동명대",
+    "type": "",
+    "name": "(부산)교과 기회균형",
+    "recruitNum": "22",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "동서대",
+    "type": "",
+    "name": "(부산)교과 고른기회",
+    "recruitNum": "38",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "가톨릭대",
+    "type": "",
+    "name": "(부산)교과 사회배려대상자",
+    "recruitNum": "17",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "교대",
+    "type": "",
+    "name": "(부산)종합 저소득층학생",
+    "recruitNum": "5",
+    "method": "1단계(3배수): 서류100 2단계: 1단계71.4+ 면접28.6",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "부산대",
+    "type": "",
+    "name": "(부산)종합 저소득층학생",
+    "recruitNum": "73",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "외국어대",
+    "type": "",
+    "name": "(부산)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "29",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "신라대",
+    "type": "",
+    "name": "(부산)교과 기회균형",
+    "recruitNum": "14",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "영산대",
+    "type": "",
+    "name": "(해운대 )교과 이웃사랑",
+    "recruitNum": "9",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "울산",
+    "university": "울산대",
+    "type": "",
+    "name": "(울산)교과 기초생활수급자 및 차상위계층 특별",
+    "recruitNum": "33",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "가야대",
+    "type": "",
+    "name": "(김해)교과 기초생활수급자",
+    "recruitNum": "9",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "경남대",
+    "type": "",
+    "name": "(창원)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "43",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "경상국립대",
+    "type": "",
+    "name": "(진주)종합 기초생활수급자 등",
+    "recruitNum": "154",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "경상국립대",
+    "type": "",
+    "name": "(통영)종합 기초생활수급자 등",
+    "recruitNum": "3",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "경상국립대",
+    "type": "",
+    "name": "(칠암)종합 기초생활수급자 등",
+    "recruitNum": "12",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "국립창원대",
+    "type": "",
+    "name": "(창원)교과 기회균형",
+    "recruitNum": "18",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "부산대",
+    "type": "",
+    "name": "(밀양)종합 저소득층학생",
+    "recruitNum": "12",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "부산대",
+    "type": "",
+    "name": "(양산)종합 저소득층학생",
+    "recruitNum": "3",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "장신대",
+    "type": "",
+    "name": "(김해)교과 저소득층 (기회균형선발 )",
+    "recruitNum": "1",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "영산대",
+    "type": "",
+    "name": "(양산)교과 이웃사랑",
+    "recruitNum": "11",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "인제대",
+    "type": "",
+    "name": "(김해)교과 기초생활수급권자",
+    "recruitNum": "40",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "진주교대",
+    "type": "",
+    "name": "(진주)종합 기회균형",
+    "recruitNum": "5",
+    "method": "1단계(2.5배수): 서류100 2단계: 1단계63.6+ 면접36.4",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "창신대",
+    "type": "",
+    "name": "(창원)교과 기회균형",
+    "recruitNum": "14",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "광주교대",
+    "type": "",
+    "name": "(광주)종합 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "10",
+    "method": "서류70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "광주대",
+    "type": "",
+    "name": "(광주)교과수급자 , 차상위계층 , 한부모가정",
+    "recruitNum": "70",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "여대",
+    "type": "",
+    "name": "(광주)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "35",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "남부대",
+    "type": "",
+    "name": "(광주)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "19",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "송원대",
+    "type": "",
+    "name": "(광주)교과학생부우수자 수급자 , 차상위 , 한부모",
+    "recruitNum": "35",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "조선대",
+    "type": "",
+    "name": "(광주)교과 기초생활 , 차상위 , 한부모",
+    "recruitNum": "78",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "호남대",
+    "type": "",
+    "name": "(광주)교과 기초, 차상위 , 한부모",
+    "recruitNum": "82",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "국립목포대",
+    "type": "",
+    "name": "(목포)교과 기초 및 차상위계층자",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "국립목포해양대",
+    "type": "",
+    "name": "(목포)교과 기초생활수급권자 및 차상위계층자",
+    "recruitNum": "36",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "국립순천대",
+    "type": "",
+    "name": "(순천)종합 기초생활등",
+    "recruitNum": "10",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "동신대",
+    "type": "",
+    "name": "(나주)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "63",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "목포가톨릭대",
+    "type": "",
+    "name": "(목포)종합 기초생활수급자 및 차상위계층자",
+    "recruitNum": "2",
+    "method": "서류60+학생부 40",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "세한대",
+    "type": "",
+    "name": "(영암)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "(23)",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "초당대",
+    "type": "",
+    "name": "(무안)교과 기초생활 , 차상위",
+    "recruitNum": "21",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "국립군산대",
+    "type": "",
+    "name": "(군산)교과 저소득층학생",
+    "recruitNum": "16",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "예수대",
+    "type": "",
+    "name": "(전주)교과 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "9",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "예원예술대",
+    "type": "",
+    "name": "(임실)교과 기회균등",
+    "recruitNum": "1",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "우석대",
+    "type": "",
+    "name": "(완주)교과 기회균형",
+    "recruitNum": "26",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "원광대",
+    "type": "",
+    "name": "(익산)종합 기회균형",
+    "recruitNum": "48",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "전북대",
+    "type": "",
+    "name": "(전주)종합 기회균형선발",
+    "recruitNum": "73",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "전북대",
+    "type": "",
+    "name": "(특성화 )종합 기회균형선발",
+    "recruitNum": "4",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "전주교대",
+    "type": "",
+    "name": "(전주)종합 고른기회Ⅱ",
+    "recruitNum": "4",
+    "method": "1단계(2배수): 서류100 2단계: 1단계70+면접30",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "전주대",
+    "type": "",
+    "name": "(전주)종합 기회균형선발",
+    "recruitNum": "64",
+    "method": "서류100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "한일장신대",
+    "type": "",
+    "name": "(완주)교과 기초생활수급권자 및 차상위계층",
+    "recruitNum": "8",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "호원대",
+    "type": "",
+    "name": "(군산)교과 기초생활수급자",
+    "recruitNum": "11",
+    "method": "학생부 100",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "제주",
+    "university": "제주국제대",
+    "type": "",
+    "name": "(제주)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "12",
+    "method": "학생부 100□2 (수시모집 ) 의치약한수계열 1.의예과",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "가톨릭관동대",
+    "type": "",
+    "name": "(강릉)교과 기초생활 및 차상위",
+    "recruitNum": "5",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영,과(2) 중 3개 합 6"
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "연세대",
+    "type": "",
+    "name": "(미래)종합 기초생활 연세한마음",
+    "recruitNum": "1",
+    "method": "서류80+면접20",
+    "note": "국,수(미/기),영,과1,과2 중 4개 합 6"
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "을지대",
+    "type": "",
+    "name": "(대전)교과 기회균형",
+    "recruitNum": "2",
+    "method": "학생부 95+인성면접 5",
+    "note": "국,수,영,과(2) 중 3개 합 5"
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "충남대",
+    "type": "",
+    "name": "(대전)종합종합Ⅲ 저소득층학생",
+    "recruitNum": "1",
+    "method": "1단계(3배수):서류100 2단계:1단계67+면접33-",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "충남",
+    "university": "순천향대",
+    "type": "",
+    "name": "(아산)종합 기초차상위",
+    "recruitNum": "2",
+    "method": "서류100 -",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "동국대",
+    "type": "",
+    "name": "(WISE)교과 기회균형Ⅱ",
+    "recruitNum": "3",
+    "method": "학생부 100",
+    "note": "국,수,영,과(1) 중 3개 합 4"
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "인제대",
+    "type": "",
+    "name": "(김해)교과 기초생활수급권자",
+    "recruitNum": "4",
+    "method": "1단계(5배수):학생부 100 2단계:1단계67.5+ 면접32.5국,수(미/기),영,과(1) 중 4개 각 2",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "원광대",
+    "type": "",
+    "name": "(익산)종합 기회균형",
+    "recruitNum": "3",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23- 2.치의예과",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "원광대",
+    "type": "",
+    "name": "(익산)종합 기회균형",
+    "recruitNum": "2",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23- 3.약학과",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "덕성여대",
+    "type": "종합",
+    "name": "기회균형Ⅰ 기초생활수급자 등",
+    "recruitNum": "6",
+    "method": "서류100 -",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "삼육대",
+    "type": "종합",
+    "name": "기회균형Ⅱ",
+    "recruitNum": "2",
+    "method": "1단계(4배수): 서류100 2단계: 1단계60+면접40국,수(미/기),영,과(1) 중 3개 합 5",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "서울",
+    "university": "중앙대",
+    "type": "종합",
+    "name": "기회균형 (기초생활수급자 및 차상위계층 )",
+    "recruitNum": "7",
+    "method": "서류100 -",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "인천",
+    "university": "가천대",
+    "type": "",
+    "name": "(메디컬 )종합 교육기회균형",
+    "recruitNum": "3",
+    "method": "1단계(4배수): 서류100 2단계: 1단계50+면접50국,수(미/기),영,과(2) 중 3개 합 6",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경기",
+    "university": "가톨릭대",
+    "type": "",
+    "name": "(성신)종합 기회균형 Ⅱ",
+    "recruitNum": "3",
+    "method": "서류100국,수,영,과(1) 중 3개 합 7 차 의과학대 (포천)종합 기회균등특별 3 서류100국,수,영,탐(2) 중 3개 합 7",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "강원대",
+    "type": "",
+    "name": "(춘천)교과 저소득층학생",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": "국,수,영,과(1) 중 3개 합 9 수, 과(1) 포함"
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "충남대",
+    "type": "",
+    "name": "(대전)종합종합Ⅲ (저소득층학생 )",
+    "recruitNum": "4",
+    "method": "1단계(3배수):서류100 2단계:1단계66.7+ 면접33.3-",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대구",
+    "university": "계명대",
+    "type": "",
+    "name": "(대구)종합약학 기회균형",
+    "recruitNum": "3",
+    "method": "서류100국,수(미/기),영,과(1) 중 3개 합 7",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "대구가톨릭대",
+    "type": "",
+    "name": "(경산)교과 기회균형선발",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영,과(2) 중 3개 합 7"
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "영남대",
+    "type": "",
+    "name": "(경산)교과약학 고른기회",
+    "recruitNum": "5",
+    "method": "학생부 100",
+    "note": "국,수,영,과(1) 중 3개 합 7"
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "경성대",
+    "type": "",
+    "name": "(부산)교과 저소득층",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영,과(1) 중 3개 합 7"
+  },
+  {
+    "period": "수시",
+    "region": "부산",
+    "university": "부산대",
+    "type": "",
+    "name": "(부산)종합 저소득층학생",
+    "recruitNum": "5",
+    "method": "서류100국,수,영,탐(1) 중 3개 합 6",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경남",
+    "university": "인제대",
+    "type": "",
+    "name": "(김해)교과 기초생활수급권자",
+    "recruitNum": "3",
+    "method": "1단계(5배수): 학생부 100 2단계: 1단계 67.5+ 면접32.5-",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "광주",
+    "university": "전남대",
+    "type": "",
+    "name": "(광주)교과 기초생활 , 차상위 , 한부모",
+    "recruitNum": "5",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영,과(1) 중 3개 합 8"
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "국립목포대",
+    "type": "",
+    "name": "(목포)교과 기초 및 차상위계층자",
+    "recruitNum": "2",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영,과(2) 중 3개 합 8 수,과 포함"
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "국립순천대",
+    "type": "",
+    "name": "(순천)종합 기초생활등",
+    "recruitNum": "2",
+    "method": "서류100국,수(미/기),영,과(2) 중 3개 합 8 수,과 포함",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "우석대",
+    "type": "",
+    "name": "(완주)교과 기회균형",
+    "recruitNum": "4",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영,과(2) 중 3개 합 7 수 포함"
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "원광대",
+    "type": "",
+    "name": "(익산)종합 기회균형",
+    "recruitNum": "2",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23-",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "전북대",
+    "type": "",
+    "name": "(전주)종합 기회균형선발",
+    "recruitNum": "3",
+    "method": "서류100 -4.한의예과",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "강원",
+    "university": "상지대",
+    "type": "",
+    "name": "(원주)종합 교육기회균등",
+    "recruitNum": "3",
+    "method": "서류80+학생부 20",
+    "note": "국,수,영,탐(2) 중 3개 합 4 수(미/기) 포함 시 3개 합 5"
+  },
+  {
+    "period": "수시",
+    "region": "충북",
+    "university": "세명대",
+    "type": "",
+    "name": "(제천)교과 기초생활수급자 및 차상위계층 , 한부모가족",
+    "recruitNum": "2",
+    "method": "학생부 100",
+    "note": "국,수(미/기),영 중 3개 합 5"
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "대구한의대",
+    "type": "",
+    "name": "(경산)종합 기초 및 차상위계층",
+    "recruitNum": "5",
+    "method": "서류100국,수(미/기),영,과(1) 중 3개 합 6",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "경북",
+    "university": "동국대",
+    "type": "",
+    "name": "(WISE)교과 기회균형Ⅱ",
+    "recruitNum": "3",
+    "method": "학생부 100",
+    "note": "국,수,영,과(1) 중 3개 합 5"
+  },
+  {
+    "period": "수시",
+    "region": "전남",
+    "university": "동신대",
+    "type": "",
+    "name": "(나주)교과 기초생활수급자 및 차상위계층",
+    "recruitNum": "2",
+    "method": "학생부 100",
+    "note": "국,수,영,탐(1) 중 3개 합 6"
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "우석대",
+    "type": "",
+    "name": "(완주)교과 기회균형",
+    "recruitNum": "1",
+    "method": "교과100국,수,영,탐(2) 중 3개 합 7",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "원광대",
+    "type": "",
+    "name": "(익산)종합 기회균형",
+    "recruitNum": "2",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23- 5.수의예과",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "대전",
+    "university": "충남대",
+    "type": "",
+    "name": "(대전)종합종합Ⅲ (저소득층학생 )",
+    "recruitNum": "1",
+    "method": "1단계(3배수):서류100 2단계:1단계67+면접33-",
+    "note": ""
+  },
+  {
+    "period": "수시",
+    "region": "전북",
+    "university": "전북대",
+    "type": "",
+    "name": "(특성화 )종합 기회균형선발",
+    "recruitNum": "1",
+    "method": "서류100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "미상",
+    "university": "미상",
+    "type": "",
+    "name": "지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "recruitNum": "",
+    "method": "",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "건국대",
+    "type": "",
+    "name": "가 수능 기초생활 및 차상위",
+    "recruitNum": "24",
+    "method": "수능100 나 35 다 5 경희대가 수능 기초생활수급자 , 차상위계층 , 한부모가족48 수능100 나 5",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "고려대",
+    "type": "",
+    "name": "가 수능 사회배려",
+    "recruitNum": "69",
+    "method": "수능100 동국대가 수능 기초생활수급자 및 차상위계층14 수능100 나 18 다 4",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "동덕여대",
+    "type": "",
+    "name": "가 수능 기회균등",
+    "recruitNum": "23",
+    "method": "수능100",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "서강대",
+    "type": "",
+    "name": "나 수능 기초생활보장대상자",
+    "recruitNum": "24",
+    "method": "수능100국,수,영,탐(1) 3개 합 9",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "서울대",
+    "type": "",
+    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "recruitNum": "93",
+    "method": "수능100국,수,영,탐 3개 합 7",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "시립대",
+    "type": "",
+    "name": "가 수능 기회균형Ⅱ (기초생활수급자 및 차상위계층특별 )",
+    "recruitNum": "2",
+    "method": "수능100 나 31 성균관대가 수능 이웃사랑18 수능100 나 35 다 4 성신여대가 수능 기회균형Ⅱ5 수능100 나 10 숙명여대가 수능 사회배려 24 수능100 나 수능 사회배려 6 숭실대가 수능 기초생활수급자 및 차상위계층11 수능100 다 15",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "연세대",
+    "type": "",
+    "name": "가 수능 연세한마음",
+    "recruitNum": "83",
+    "method": "수능100 이화여대가 수능 기회균형 (기초생활수급자 및 차상위계층 , 한부모가족 )10 수능100 나 16 다 1 중앙대가 수능 기회균형 (기초생활수급자 및 차상위계층 )20 수능100 다 10",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "한국외국어대",
+    "type": "",
+    "name": "나 수능 기초생활수급자 및 차상위계층",
+    "recruitNum": "42",
+    "method": "수능100지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "한양대",
+    "type": "",
+    "name": "가 수능 기회균형선발",
+    "recruitNum": "28",
+    "method": "수능90+서류10 나 14",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "인천",
+    "university": "경인교대",
+    "type": "",
+    "name": "(인천)나 수능 저소득층학생",
+    "recruitNum": "9",
+    "method": "수능100",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "인천",
+    "university": "인천대",
+    "type": "",
+    "name": "(인천)가 수능 기회균형",
+    "recruitNum": "26",
+    "method": "수능100 다 19",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "경희대",
+    "type": "",
+    "name": "(국제)가 수능 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "19",
+    "method": "수능100 나 23",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "동국대",
+    "type": "",
+    "name": "(고양)가 수능 기초생활수급자 및 차상위계층",
+    "recruitNum": "2",
+    "method": "수능100 나 4",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "아주대",
+    "type": "",
+    "name": "(수원)나 수능 기회균형",
+    "recruitNum": "7",
+    "method": "수능100 20 다",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "한국외국어대",
+    "type": "",
+    "name": "(글로벌 )다 수능 기초생활수급자 및 차상위계층특별",
+    "recruitNum": "42",
+    "method": "수능100",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "한양대",
+    "type": "",
+    "name": "(ERICA)가 수능 기회균형선발",
+    "recruitNum": "20",
+    "method": "수능100 나 16",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "세종",
+    "university": "고려대",
+    "type": "",
+    "name": "(세종)가 수능 사회배려자",
+    "recruitNum": "8",
+    "method": "수능100 나 7 다 11",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "대구",
+    "university": "대구교대",
+    "type": "",
+    "name": "(대구)나 수능 사회배려자특별",
+    "recruitNum": "6",
+    "method": "수능80+면접20",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "광주",
+    "university": "광신대",
+    "type": "",
+    "name": "(광주)가 교과 사회적배려대상자",
+    "recruitNum": "8",
+    "method": "학생부 60+면접40□4 (정시모집 ) 의치약한수계열 1.의예과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법",
+    "note": "수능최저학력 기준"
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "고려대",
+    "type": "",
+    "name": "가 수능 사회배려",
+    "recruitNum": "2",
+    "method": "수능100+ 적성인성면접 (P/F)-",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "서울대",
+    "type": "",
+    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "recruitNum": "2",
+    "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "연세대",
+    "type": "",
+    "name": "가 수능 연세한마음",
+    "recruitNum": "1",
+    "method": "수능95+면접5 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "대구",
+    "university": "계명대",
+    "type": "",
+    "name": "(대구)다 수능 기회균형",
+    "recruitNum": "2",
+    "method": "수능100 - 2. 치의예과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "경희대",
+    "type": "",
+    "name": "나 수능 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "1",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "연세대",
+    "type": "",
+    "name": "가 수능 연세한마음",
+    "recruitNum": "1",
+    "method": "수능100 - 3. 약학과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "경희대",
+    "type": "",
+    "name": "나 수능 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "2",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "동덕여대",
+    "type": "",
+    "name": "가 수능 기회균등",
+    "recruitNum": "4",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "서울대",
+    "type": "",
+    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "recruitNum": "5",
+    "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "숙명여대",
+    "type": "",
+    "name": "나 수능 사회배려",
+    "recruitNum": "6",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "연세대",
+    "type": "",
+    "name": "가 수능 연세한마음",
+    "recruitNum": "2",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "중앙대",
+    "type": "",
+    "name": "가 수능 기회균형 (기초생활수급자 및 차상위계층 )",
+    "recruitNum": "2",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "동국대",
+    "type": "",
+    "name": "(바이오 )나 수능 기초생활수급자 및 차상위계층",
+    "recruitNum": "2",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "성균관대",
+    "type": "",
+    "name": "(수원)가 수능 이웃사랑",
+    "recruitNum": "2",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "아주대",
+    "type": "",
+    "name": "(수원)나 수능 기회균형",
+    "recruitNum": "2",
+    "method": "수능100 -지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경기",
+    "university": "한양대",
+    "type": "",
+    "name": "(ERICA)나 수능 기회균형선발",
+    "recruitNum": "3",
+    "method": "수능100",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "세종",
+    "university": "고려대",
+    "type": "",
+    "name": "(세종)가 수능 사회배려자",
+    "recruitNum": "1",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "충북",
+    "university": "충북대",
+    "type": "",
+    "name": "(청주)가 수능 경제배려대상자2 (약학) 수능100 - 2 (제약)",
+    "recruitNum": "",
+    "method": "",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "경남",
+    "university": "인제대",
+    "type": "",
+    "name": "(김해)가 수능 기초생활수급권자",
+    "recruitNum": "3",
+    "method": "수능100 - 4. 수의예과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법",
+    "note": "수능최저학력 기준"
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "건국대",
+    "type": "",
+    "name": "가 수능 기초생활 및 차상위",
+    "recruitNum": "1",
+    "method": "수능100 -",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "region": "서울",
+    "university": "서울대",
+    "type": "",
+    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "recruitNum": "4",
+    "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7 ※ 이 자료는 「2027 학년도 대입정보 119」에서 발췌한 자료입니다 . ※ 내용이 변경될 수 있으므로 원서접수 전 해당 대학의 모집요강 을 반드시 확인하여야 합니다 .",
+    "note": ""
+  }
+]
