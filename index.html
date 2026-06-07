@@ -871,7 +871,10 @@
         // Theme management
         function initTheme() {
             const saved = localStorage.getItem('theme');
-            if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            // 기본 접속 시 강제로 라이트 모드로 설정.
+            // 사용자가 명시적으로 다크모드를 선택했던 경우(saved === 'dark')에만 다크모드 적용.
+            // 시스템 설정(prefers-color-scheme: dark)은 무시하고 라이트 모드를 기본값으로 사용합니다.
+            if (saved === 'dark') {
                 setTheme('dark');
             } else {
                 setTheme('light');
