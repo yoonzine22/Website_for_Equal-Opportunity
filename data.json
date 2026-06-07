@@ -2114,29 +2114,51 @@
   {
     "period": "정시",
     "track": "일반계열",
-    "region": "서울",
-    "university": "건국대",
+    "region": "미상",
+    "university": "울건국대",
     "type": "",
     "name": "가 수능 기초생활 및 차상위",
     "recruitNum": "24",
-    "method": "수능100 나 35 다 5 경희대가 수능 기초생활수급자 , 차상위계층 , 한부모가족48 수능100 나 5",
+    "method": "수능100 나 35 다 5",
     "note": ""
   },
   {
     "period": "정시",
     "track": "일반계열",
-    "region": "서울",
+    "region": "미상",
+    "university": "경희대",
+    "type": "",
+    "name": "가 수능 기초생활수급자 , 차상위계층 , 한부모가족",
+    "recruitNum": "48",
+    "method": "수능100 나 5",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "미상",
     "university": "고려대",
     "type": "",
     "name": "가 수능 사회배려",
     "recruitNum": "69",
-    "method": "수능100 동국대가 수능 기초생활수급자 및 차상위계층14 수능100 나 18 다 4",
+    "method": "수능100",
     "note": ""
   },
   {
     "period": "정시",
     "track": "일반계열",
-    "region": "서울",
+    "region": "미상",
+    "university": "동국대",
+    "type": "",
+    "name": "가 수능 기초생활수급자 및 차상위계층",
+    "recruitNum": "14",
+    "method": "수능100 나 18 다 4",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "미상",
     "university": "동덕여대",
     "type": "",
     "name": "가 수능 기회균등",
@@ -2147,10 +2169,10 @@
   {
     "period": "정시",
     "track": "일반계열",
-    "region": "서울",
+    "region": "미상",
     "university": "서강대",
     "type": "",
-    "name": "나 수능 기초생활보장대상자",
+    "name": "가 수능 기초생활보장대상자",
     "recruitNum": "24",
     "method": "수능100국,수,영,탐(1) 3개 합 9",
     "note": ""
@@ -2161,20 +2183,64 @@
     "region": "서울",
     "university": "서울대",
     "type": "",
-    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "name": "가 수능 기회균형특별 (저소득학생 )",
     "recruitNum": "93",
-    "method": "수능100국,수,영,탐 3개 합 7",
+    "method": "수능100국,수,영,탐 3개 합 7 서",
     "note": ""
   },
   {
     "period": "정시",
     "track": "일반계열",
     "region": "서울",
-    "university": "시립대",
+    "university": "울시립대",
     "type": "",
     "name": "가 수능 기회균형Ⅱ (기초생활수급자 및 차상위계층특별 )",
     "recruitNum": "2",
-    "method": "수능100 나 31 성균관대가 수능 이웃사랑18 수능100 나 35 다 4 성신여대가 수능 기회균형Ⅱ5 수능100 나 10 숙명여대가 수능 사회배려 24 수능100 나 수능 사회배려 6 숭실대가 수능 기초생활수급자 및 차상위계층11 수능100 다 15",
+    "method": "수능100 나 31",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "서울",
+    "university": "성균관대",
+    "type": "",
+    "name": "가 수능 이웃사랑",
+    "recruitNum": "18",
+    "method": "수능100 나 35 다 4",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "서울",
+    "university": "성신여대",
+    "type": "",
+    "name": "가 수능 기회균형Ⅱ",
+    "recruitNum": "5",
+    "method": "수능100 나 10",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "서울",
+    "university": "숙명여대",
+    "type": "",
+    "name": "가 수능 사회배려",
+    "recruitNum": "24",
+    "method": "수능100 나 수능 사회배려 6",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "서울",
+    "university": "숭실대",
+    "type": "",
+    "name": "가 수능 기초생활수급자 및 차상위계층",
+    "recruitNum": "11",
+    "method": "수능100 다 15",
     "note": ""
   },
   {
@@ -2185,16 +2251,38 @@
     "type": "",
     "name": "가 수능 연세한마음",
     "recruitNum": "83",
-    "method": "수능100 이화여대가 수능 기회균형 (기초생활수급자 및 차상위계층 , 한부모가족 )10 수능100 나 16 다 1 중앙대가 수능 기회균형 (기초생활수급자 및 차상위계층 )20 수능100 다 10",
+    "method": "수능100",
     "note": ""
   },
   {
     "period": "정시",
     "track": "일반계열",
     "region": "서울",
-    "university": "한국외국어대",
+    "university": "이화여대",
     "type": "",
-    "name": "나 수능 기초생활수급자 및 차상위계층",
+    "name": "가 수능 기회균형 (기초생활수급자 및 차상위계층 , 한부모가족 )",
+    "recruitNum": "10",
+    "method": "수능100 나 16 다 1",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "서울",
+    "university": "중앙대",
+    "type": "",
+    "name": "가 수능 기회균형 (기초생활수급자 및 차상위계층 )",
+    "recruitNum": "20",
+    "method": "수능100 다 10 한국",
+    "note": ""
+  },
+  {
+    "period": "정시",
+    "track": "일반계열",
+    "region": "서울",
+    "university": "외국어대",
+    "type": "",
+    "name": "가 수능 기초생활수급자 및 차상위계층",
     "recruitNum": "42",
     "method": "수능100",
     "note": ""
@@ -2323,8 +2411,8 @@
   {
     "period": "정시",
     "track": "의예과",
-    "region": "서울",
-    "university": "고려대",
+    "region": "미상",
+    "university": "울고려대",
     "type": "",
     "name": "가 수능 사회배려",
     "recruitNum": "2",
@@ -2337,7 +2425,7 @@
     "region": "서울",
     "university": "서울대",
     "type": "",
-    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "name": "가 수능 기회균형특별 (저소득학생 )",
     "recruitNum": "2",
     "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7",
     "note": ""
@@ -2367,10 +2455,10 @@
   {
     "period": "정시",
     "track": "의예과",
-    "region": "서울",
-    "university": "경희대",
+    "region": "미상",
+    "university": "울경희대",
     "type": "",
-    "name": "나 수능 기초생활수급자 , 차상위계층 , 한부모가족",
+    "name": "가 수능 기초생활수급자 , 차상위계층 , 한부모가족",
     "recruitNum": "1",
     "method": "수능100 -",
     "note": ""
@@ -2378,7 +2466,7 @@
   {
     "period": "정시",
     "track": "의예과",
-    "region": "서울",
+    "region": "미상",
     "university": "연세대",
     "type": "",
     "name": "가 수능 연세한마음",
@@ -2389,10 +2477,10 @@
   {
     "period": "정시",
     "track": "약학과",
-    "region": "서울",
-    "university": "경희대",
+    "region": "미상",
+    "university": "울경희대",
     "type": "",
-    "name": "나 수능 기초생활수급자 , 차상위계층 , 한부모가족",
+    "name": "가 수능 기초생활수급자 , 차상위계층 , 한부모가족",
     "recruitNum": "2",
     "method": "수능100 -",
     "note": ""
@@ -2400,7 +2488,7 @@
   {
     "period": "정시",
     "track": "약학과",
-    "region": "서울",
+    "region": "미상",
     "university": "동덕여대",
     "type": "",
     "name": "가 수능 기회균등",
@@ -2414,7 +2502,7 @@
     "region": "서울",
     "university": "서울대",
     "type": "",
-    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "name": "가 수능 기회균형특별 (저소득학생 )",
     "recruitNum": "5",
     "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7",
     "note": ""
@@ -2425,7 +2513,7 @@
     "region": "서울",
     "university": "숙명여대",
     "type": "",
-    "name": "나 수능 사회배려",
+    "name": "가 수능 사회배려",
     "recruitNum": "6",
     "method": "수능100 -",
     "note": ""
@@ -2510,17 +2598,6 @@
   {
     "period": "정시",
     "track": "약학과",
-    "region": "충북",
-    "university": "충북대·청주",
-    "type": "",
-    "name": "가 수능 경제배려대상자2 (약학) 수능100 - 2 (제약)",
-    "recruitNum": "",
-    "method": "",
-    "note": ""
-  },
-  {
-    "period": "정시",
-    "track": "약학과",
     "region": "경남",
     "university": "인제대·김해",
     "type": "",
@@ -2532,8 +2609,8 @@
   {
     "period": "정시",
     "track": "의예과",
-    "region": "서울",
-    "university": "건국대",
+    "region": "미상",
+    "university": "울건국대",
     "type": "",
     "name": "가 수능 기초생활 및 차상위",
     "recruitNum": "1",
@@ -2546,9 +2623,9 @@
     "region": "서울",
     "university": "서울대",
     "type": "",
-    "name": "나 수능 기회균형특별 (저소득학생 )",
+    "name": "가 수능 기회균형특별 (저소득학생 )",
     "recruitNum": "4",
-    "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7 ※ 이 자료는 「2027 학년도 대입정보 119」에서 발췌한 자료입니다 . ※ 내용이 변경될 수 있으므로 원서접수 전 해당 대학의 모집요강 을 반드시 확인하여야 합니다 .",
+    "method": "수능100국,수(미/기),영,과(2) 중 3개 합 7",
     "note": ""
   }
 ]
