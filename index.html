@@ -457,11 +457,16 @@
             cursor: pointer;
             transition: all var(--transition);
             white-space: nowrap;
+            outline: none; /* 클릭 후 포커스 아웃라인 제거 */
+            -webkit-tap-highlight-color: transparent; /* 모바일 터치 하이라이트 제거 */
         }
         .chip:hover {
             background: var(--teal-light);
             color: var(--teal);
             border-color: var(--teal);
+        }
+        .chip:focus {
+            outline: none; /* 키보드 탭 등의 포커스 시에도 아웃라인 방지 */
         }
         .chip.active {
             background: var(--teal);
