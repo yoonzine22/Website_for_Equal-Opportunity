@@ -7,36 +7,103 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
     <style>
         :root {
-            --bg-color: #f5f5f5;
-            --white: #ffffff;
+            --bg-color: #f8fafb;
+            --surface: #ffffff;
+            --surface-hover: #ffffff;
+            --surface-alt: #f9fafb;
             --teal: #0d9488;
             --teal-hover: #0f766e;
-            --teal-light: #ccfbf1;
+            --teal-light: #f0fdfa;
             --teal-dark: #115e59;
+            --teal-subtle: rgba(13, 148, 136, 0.08);
+            --gray-50: #f9fafb;
             --gray-100: #f3f4f6;
             --gray-200: #e5e7eb;
             --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
             --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
             --gray-800: #1f2937;
+            --gray-900: #111827;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --text-muted: #9ca3af;
+            --border-color: #e5e7eb;
+            --border-light: #f3f4f6;
             --orange: #ea580c;
-            --orange-light: #ffedd5;
+            --orange-light: #fff7ed;
             --red: #e11d48;
-            --red-light: #ffe4e6;
-            --border-radius: 12px;
+            --red-light: #fff1f2;
+            --highlight-bg: rgba(13, 148, 136, 0.15);
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+            --border-radius: 16px;
+            --border-radius-sm: 10px;
+            --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --input-bg: #f9fafb;
+            --toggle-bg: #f3f4f6;
+            --toggle-active-bg: #ffffff;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f1117;
+            --surface: #1a1d27;
+            --surface-hover: #22252f;
+            --surface-alt: #14161e;
+            --teal: #2dd4bf;
+            --teal-hover: #5eead4;
+            --teal-light: rgba(45, 212, 191, 0.1);
+            --teal-dark: #99f6e4;
+            --teal-subtle: rgba(45, 212, 191, 0.06);
+            --gray-50: #14161e;
+            --gray-100: #1a1d27;
+            --gray-200: #2a2d37;
+            --gray-300: #3a3d47;
+            --gray-400: #6b7280;
+            --gray-500: #9ca3af;
+            --gray-600: #d1d5db;
+            --gray-700: #e5e7eb;
+            --gray-800: #f3f4f6;
+            --gray-900: #f9fafb;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #2a2d37;
+            --border-light: #22252f;
+            --orange: #fb923c;
+            --orange-light: rgba(251, 146, 60, 0.1);
+            --red: #fb7185;
+            --red-light: rgba(251, 113, 133, 0.1);
+            --highlight-bg: rgba(45, 212, 191, 0.2);
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            --input-bg: #14161e;
+            --toggle-bg: #22252f;
+            --toggle-active-bg: #2a2d37;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
-            font-family: 'Pretendard', sans-serif;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-color);
-            color: var(--gray-800);
+            color: var(--text-primary);
             margin: 0;
             padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1280px;
             margin: 0 auto;
-            padding: 24px;
+            padding: 32px 24px 64px;
         }
 
         /* Header */
@@ -44,176 +111,476 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 24px;
+            margin-bottom: 28px;
             flex-wrap: wrap;
             gap: 16px;
         }
-        .disclaimer {
-            font-weight: 700;
-            color: var(--gray-800);
-            font-size: 18px;
-        }
-        .toggle-group {
+        .header-left {
             display: flex;
-            background: var(--white);
-            border-radius: 8px;
-            border: 1px solid var(--gray-300);
-            overflow: hidden;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
         }
-        .toggle-btn {
-            padding: 10px 32px;
+        .disclaimer {
+            font-weight: 600;
+            color: var(--orange);
+            font-size: 14px;
+            background: var(--orange-light);
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid rgba(234, 88, 12, 0.12);
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            background: var(--toggle-bg);
+            padding: 4px;
+            border-radius: 24px;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            transition: all var(--transition);
+        }
+        .theme-toggle:hover {
+            border-color: var(--teal);
+        }
+        .theme-toggle-btn {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
             border: none;
             background: transparent;
-            font-size: 16px;
-            font-weight: 700;
-            color: var(--gray-500);
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all var(--transition);
+            font-size: 16px;
+            line-height: 1;
+            color: var(--text-muted);
+        }
+        .theme-toggle-btn.active {
+            background: var(--teal);
+            box-shadow: var(--shadow-md);
+            color: #ffffff;
+        }
+        .theme-toggle-btn:not(.active):hover {
+            color: var(--text-primary);
+        }
+
+        .toggle-group {
+            display: flex;
+            background: var(--toggle-bg);
+            border-radius: 12px;
+            padding: 4px;
+            gap: 4px;
+        }
+        .toggle-btn {
+            padding: 10px 36px;
+            border: none;
+            background: transparent;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all var(--transition);
+            border-radius: 9px;
+            position: relative;
+        }
+        .toggle-btn:hover:not(.active) {
+            color: var(--text-primary);
+            background: var(--surface-hover);
         }
         .toggle-btn.active {
-            background: var(--teal);
-            color: var(--white);
+            background: var(--toggle-active-bg);
+            color: var(--teal);
+            box-shadow: var(--shadow-md);
         }
 
         /* Summary Cards */
         .summary-cards {
-            display: flex;
-            gap: 24px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
             margin-bottom: 24px;
         }
         .card {
-            flex: 1;
-            background: var(--white);
-            padding: 24px 32px;
+            background: var(--surface);
+            padding: 24px 28px;
             border-radius: var(--border-radius);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-            border: 1px solid var(--gray-200);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--teal), #2dd4bf);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+        .card:hover::before {
+            opacity: 1;
         }
         .card-number {
-            font-size: 40px;
+            font-size: 36px;
             font-weight: 800;
             color: var(--teal);
             line-height: 1;
+            letter-spacing: -0.02em;
         }
         .card-label {
-            font-size: 15px;
-            color: var(--gray-500);
+            font-size: 14px;
+            color: var(--text-secondary);
             margin-top: 8px;
             font-weight: 600;
         }
 
         /* Search & Filter Section */
         .filter-section {
-            background: var(--white);
-            padding: 24px 32px;
+            background: var(--surface);
+            padding: 24px 28px;
             border-radius: var(--border-radius);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-            border: 1px solid var(--gray-200);
-            margin-bottom: 32px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            margin-bottom: 16px;
             display: flex;
             flex-wrap: wrap;
-            gap: 32px;
-            justify-content: space-between;
-        }
-        .search-area, .dropdown-area {
-            display: flex;
-            gap: 16px;
-            flex-wrap: wrap;
+            gap: 20px;
             align-items: flex-end;
         }
         .search-area {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: flex-end;
             flex: 1;
             min-width: 320px;
+        }
+        .dropdown-area {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: flex-end;
         }
         .input-group {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
             flex: 1;
+            position: relative;
         }
         .input-group label {
-            font-size: 13px;
-            color: var(--gray-500);
+            font-size: 12px;
+            color: var(--text-secondary);
             font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
         }
         .input-group input, .input-group select {
-            padding: 12px 16px;
-            border: 1px solid var(--gray-300);
-            border-radius: 8px;
-            font-size: 15px;
+            padding: 11px 16px;
+            border: 1.5px solid var(--border-color);
+            border-radius: var(--border-radius-sm);
+            font-size: 14px;
             outline: none;
-            transition: border-color 0.2s;
+            transition: all var(--transition);
             font-family: inherit;
+            background: var(--input-bg);
+            color: var(--text-primary);
+        }
+        .input-group input::placeholder {
+            color: var(--text-muted);
         }
         .input-group input:focus, .input-group select:focus {
             border-color: var(--teal);
+            background: var(--surface);
+            box-shadow: 0 0 0 3px var(--teal-subtle);
+        }
+        .search-input-wrap {
+            position: relative;
+            flex: 1;
+        }
+        .search-input-wrap input {
+            width: 100%;
+            padding: 11px 40px 11px 16px;
+            border: 1.5px solid var(--border-color);
+            border-radius: var(--border-radius-sm);
+            font-size: 14px;
+            outline: none;
+            transition: all var(--transition);
+            font-family: inherit;
+            background: var(--input-bg);
+            color: var(--text-primary);
+        }
+        .search-input-wrap input::placeholder {
+            color: var(--text-muted);
+        }
+        .search-input-wrap input:focus {
+            border-color: var(--teal);
+            background: var(--surface);
+            box-shadow: 0 0 0 3px var(--teal-subtle);
+        }
+        .search-shortcut {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-muted);
+            background: var(--toggle-bg);
+            border: 1px solid var(--border-color);
+            padding: 2px 6px;
+            border-radius: 4px;
+            pointer-events: none;
         }
         .btn-reset {
-            padding: 0 24px;
-            background: var(--teal);
-            color: var(--white);
-            border: none;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 15px;
+            padding: 0 20px;
+            background: var(--toggle-bg);
+            color: var(--text-secondary);
+            border: 1.5px solid var(--border-color);
+            border-radius: var(--border-radius-sm);
+            font-weight: 600;
+            font-size: 14px;
             cursor: pointer;
-            height: 45px;
-            transition: background 0.2s;
+            height: 42px;
+            transition: all var(--transition);
+            white-space: nowrap;
         }
         .btn-reset:hover {
-            background: var(--teal-hover);
+            background: var(--surface-hover);
+            border-color: var(--teal);
+            color: var(--teal);
         }
-        
+
         .checkbox-area {
             display: flex;
             align-items: center;
-            gap: 8px;
-            height: 45px;
-            padding: 0 8px;
+            gap: 10px;
+            height: 42px;
+            padding: 0 16px;
+            background: var(--input-bg);
+            border-radius: var(--border-radius-sm);
+            border: 1.5px solid var(--border-color);
+            cursor: pointer;
+            transition: all var(--transition);
+            user-select: none;
+        }
+        .checkbox-area:hover {
+            border-color: var(--teal);
+            background: var(--teal-light);
+        }
+        .checkbox-area.checked {
+            border-color: var(--teal);
+            background: var(--teal-light);
         }
         .checkbox-area input {
-            width: 20px;
+            display: none;
+        }
+        .checkbox-toggle {
+            width: 36px;
             height: 20px;
-            accent-color: var(--teal);
-            cursor: pointer;
+            border-radius: 20px;
+            background: var(--border-color);
+            position: relative;
+            transition: all var(--transition);
+            flex-shrink: 0;
+        }
+        .checkbox-toggle::after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--surface);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+            transition: all var(--transition);
+        }
+        .checkbox-area.checked .checkbox-toggle {
+            background: var(--teal);
+        }
+        .checkbox-area.checked .checkbox-toggle::after {
+            left: 19px;
         }
         .checkbox-area label {
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 600;
-            color: var(--gray-800);
+            color: var(--text-primary);
             cursor: pointer;
+            white-space: nowrap;
+        }
+
+        /* Quick Chips */
+        .quick-chips {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding: 0 28px 20px;
+            background: var(--surface);
+            border-radius: 0 0 var(--border-radius) var(--border-radius);
+            margin-top: -16px;
+            margin-bottom: 28px;
+            border: 1px solid var(--border-color);
+            border-top: none;
+            padding-top: 12px;
+        }
+        .quick-chips-label {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            margin-right: 4px;
+        }
+        .chip {
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            background: var(--toggle-bg);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+        .chip:hover {
+            background: var(--teal-light);
+            color: var(--teal);
+            border-color: var(--teal);
+        }
+        .chip.active {
+            background: var(--teal);
+            color: #ffffff;
+            border-color: var(--teal);
+        }
+
+        /* Search Status Bar */
+        .search-status {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 0 4px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .search-status-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .result-count {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+        .result-count strong {
+            color: var(--teal);
+            font-weight: 800;
+        }
+        .active-filters {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .active-filter-tag {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            background: var(--teal-light);
+            color: var(--teal);
+            cursor: pointer;
+            transition: all var(--transition);
+        }
+        .active-filter-tag:hover {
+            background: var(--teal);
+            color: #ffffff;
+        }
+        .active-filter-tag svg {
+            width: 12px;
+            height: 12px;
+        }
+        .sort-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .sort-group label {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .sort-group select {
+            padding: 6px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            background: var(--surface);
+            color: var(--text-primary);
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all var(--transition);
+        }
+        .sort-group select:focus {
+            border-color: var(--teal);
         }
 
         /* Univ Block */
         .univ-block {
-            background: var(--white);
+            background: var(--surface);
             border-radius: var(--border-radius);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-            border: 1px solid var(--gray-200);
-            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            margin-bottom: 20px;
             overflow: hidden;
+            transition: all var(--transition);
+        }
+        .univ-block:hover {
+            box-shadow: var(--shadow-md);
         }
         .univ-header {
-            background: #f8fafc;
-            padding: 20px 24px;
+            padding: 20px 28px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid var(--gray-200);
+            border-bottom: 1px solid var(--border-light);
             flex-wrap: wrap;
             gap: 16px;
         }
         .univ-title-tags {
             display: flex;
             align-items: center;
-            gap: 16px;
+            gap: 14px;
             flex-wrap: wrap;
         }
         .univ-title-tags h3 {
             margin: 0;
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 800;
-            color: var(--gray-800);
+            color: var(--text-primary);
+            letter-spacing: -0.01em;
         }
         .tags {
             display: flex;
@@ -221,30 +588,31 @@
             flex-wrap: wrap;
         }
         .tag {
-            padding: 4px 12px;
-            border-radius: 999px;
-            font-size: 13px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
             font-weight: 700;
-            border: 1px solid transparent;
+            letter-spacing: 0.01em;
         }
-        .tag-region { background: var(--white); color: var(--teal); border-color: var(--gray-200); }
-        .tag-period { background: var(--white); color: var(--orange); border-color: var(--gray-200); }
-        .tag-type { background: var(--white); color: var(--teal); border-color: var(--gray-200); }
-        .tag-special { background: var(--white); color: var(--red); border-color: var(--gray-200); }
+        .tag-region { background: var(--teal-light); color: var(--teal); }
+        .tag-period { background: var(--orange-light); color: var(--orange); }
+        .tag-type { background: var(--toggle-bg); color: var(--text-secondary); }
+        .tag-special { background: var(--red-light); color: var(--red); }
 
         .univ-total {
             text-align: right;
         }
         .total-num {
-            font-size: 32px;
+            font-size: 28px;
             font-weight: 800;
             color: var(--teal);
             line-height: 1;
             display: block;
+            letter-spacing: -0.02em;
         }
         .total-label {
-            font-size: 13px;
-            color: var(--gray-500);
+            font-size: 12px;
+            color: var(--text-secondary);
             font-weight: 600;
             margin-top: 4px;
             display: block;
@@ -259,63 +627,140 @@
             width: 100%;
             border-collapse: collapse;
             min-width: 900px;
-            table-layout: fixed; /* 고정 레이아웃 사용 */
+            table-layout: fixed;
         }
-        /* 각 칼럼에 고유 면적(비율) 할당 */
-        th:nth-child(1), td:nth-child(1) { width: 12%; text-align: center; } /* 모집/계열 (중앙 정렬) */
-        th:nth-child(2), td:nth-child(2) { width: 8%; text-align: center; }  /* 지역 (중앙 정렬) */
-        th:nth-child(3), td:nth-child(3) { width: 6%; text-align: center; }  /* 군 (중앙 정렬) */
-        th:nth-child(4), td:nth-child(4) { width: 8%; text-align: center; }  /* 유형 (중앙 정렬) */
-        th:nth-child(5), td:nth-child(5) { width: 22%; text-align: left; } /* 전형명 (좌측 정렬 유지) */
-        th:nth-child(6), td:nth-child(6) { width: 8%; text-align: center; }  /* 인원 (중앙 정렬) */
-        th:nth-child(7), td:nth-child(7) { width: 24%; text-align: left; } /* 전형방법 (좌측 정렬 유지) */
-        th:nth-child(8), td:nth-child(8) { width: 12%; text-align: left; } /* 비고 (좌측 정렬 유지) */
+        th:nth-child(1), td:nth-child(1) { width: 12%; text-align: center; }
+        th:nth-child(2), td:nth-child(2) { width: 8%; text-align: center; }
+        th:nth-child(3), td:nth-child(3) { width: 6%; text-align: center; }
+        th:nth-child(4), td:nth-child(4) { width: 8%; text-align: center; }
+        th:nth-child(5), td:nth-child(5) { width: 22%; text-align: left; }
+        th:nth-child(6), td:nth-child(6) { width: 8%; text-align: center; }
+        th:nth-child(7), td:nth-child(7) { width: 24%; text-align: left; }
+        th:nth-child(8), td:nth-child(8) { width: 12%; text-align: left; }
 
         th, td {
-            padding: 16px 12px;
-            font-size: 14px;
-            border-bottom: 1px solid var(--gray-200);
-            word-break: keep-all; /* 단어 단위로 줄바꿈 (한국어 타이포그래피에 적합) */
-            overflow-wrap: break-word; /* 필요시 강제 줄바꿈 */
-            vertical-align: middle; /* 상하 기준 중앙 정렬로 변경 */
-            line-height: 1.5;
+            padding: 14px 12px;
+            font-size: 13px;
+            border-bottom: 1px solid var(--border-light);
+            word-break: keep-all;
+            overflow-wrap: break-word;
+            vertical-align: middle;
+            line-height: 1.6;
         }
         th {
-            background: var(--white);
-            color: var(--gray-500);
-            font-weight: 600;
-            font-size: 13px;
+            background: var(--surface-alt);
+            color: var(--text-secondary);
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            position: sticky;
+            top: 0;
         }
         td {
-            color: var(--gray-800);
+            color: var(--text-primary);
         }
         tr:last-child td {
             border-bottom: none;
         }
+        tr:hover td {
+            background: var(--teal-subtle);
+        }
         .td-num {
             color: var(--teal);
             font-weight: 800;
-            font-size: 15px;
+            font-size: 14px;
         }
         .td-note {
-            color: var(--gray-500);
-            font-size: 13px;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
+        /* Highlight */
+        mark {
+            background: var(--highlight-bg);
+            color: var(--teal);
+            padding: 1px 3px;
+            border-radius: 3px;
+            font-weight: 700;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 80px 24px;
+            background: var(--surface);
+            border-radius: var(--border-radius);
+            border: 1px solid var(--border-color);
+        }
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.4;
+        }
+        .empty-state-text {
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .univ-block {
+            animation: fadeInUp 0.3s ease forwards;
         }
 
         /* Responsive */
         @media (max-width: 768px) {
+            .container {
+                padding: 20px 16px 48px;
+            }
+            .filter-section {
+                padding: 20px;
+                gap: 16px;
+            }
+            .quick-chips {
+                padding: 12px 20px 16px;
+            }
             .search-area, .dropdown-area {
                 flex-direction: column;
                 align-items: stretch;
+                min-width: 100%;
             }
-            .search-area { min-width: 100%; }
-            .btn-reset { width: 100%; margin-top: 8px; }
-            .checkbox-area { margin-top: 8px; }
-            .univ-header { flex-direction: column; align-items: flex-start; }
-            .univ-total { text-align: left; margin-top: 8px; display: flex; align-items: baseline; gap: 8px; }
-            .total-num { display: inline; }
+            .btn-reset { width: 100%; margin-top: 4px; }
+            .checkbox-area { justify-content: center; }
+            .univ-header { flex-direction: column; align-items: flex-start; padding: 16px 20px; }
+            .univ-total { text-align: left; margin-top: 4px; display: flex; align-items: baseline; gap: 8px; }
+            .total-num { display: inline; font-size: 22px; }
             .total-label { display: inline; }
-            .summary-cards { flex-direction: column; gap: 16px; }
+            .summary-cards { grid-template-columns: 1fr 1fr; }
+            .header-row { margin-bottom: 20px; }
+            .search-status { flex-direction: column; align-items: flex-start; }
+        }
+
+        /* Scrollbar */
+        .table-responsive::-webkit-scrollbar {
+            height: 6px;
+        }
+        .table-responsive::-webkit-scrollbar-track {
+            background: var(--toggle-bg);
+            border-radius: 3px;
+        }
+        .table-responsive::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+        .table-responsive::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
         }
     </style>
 </head>
@@ -323,7 +768,17 @@
     <div class="container">
         <!-- Header -->
         <div class="header-row">
-            <div class="disclaimer">모집인원은 변경될 수 있습니다</div>
+            <div class="header-left">
+                <div class="disclaimer">모집인원은 변경될 수 있습니다</div>
+                <div class="theme-toggle" id="theme-toggle">
+                    <button class="theme-toggle-btn active" id="btn-light" aria-label="라이트 모드">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    </button>
+                    <button class="theme-toggle-btn" id="btn-dark" aria-label="다크 모드">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    </button>
+                </div>
+            </div>
             <div class="toggle-group">
                 <button class="toggle-btn active" id="btn-susi">수시</button>
                 <button class="toggle-btn" id="btn-jungsi">정시</button>
@@ -337,6 +792,10 @@
                 <div class="card-label">대학</div>
             </div>
             <div class="card">
+                <div class="card-number" id="stat-total-recruit">0</div>
+                <div class="card-label">총 모집인원</div>
+            </div>
+            <div class="card">
                 <div class="card-number" id="stat-csat">0</div>
                 <div class="card-label">수능최저 표기</div>
             </div>
@@ -346,10 +805,13 @@
         <div class="filter-section">
             <div class="search-area">
                 <div class="input-group">
-                    <label for="search-input">검색</label>
-                    <input type="text" id="search-input" placeholder="대학명, 지역, 전형명 검색">
+                    <label for="search-input">검색 <span style="text-transform:none; font-weight:500; color:var(--text-muted)">(여러 키워드 띄어쓰기로 구분)</span></label>
+                    <div class="search-input-wrap">
+                        <input type="text" id="search-input" placeholder="예: 서울 교과, 경기 종합, 국민대...">
+                        <span class="search-shortcut" id="shortcut-hint">Ctrl+K</span>
+                    </div>
                 </div>
-                <button id="reset-btn" class="btn-reset">필터 초기화</button>
+                <button id="reset-btn" class="btn-reset">초기화</button>
             </div>
             <div class="dropdown-area">
                 <div class="input-group">
@@ -364,10 +826,32 @@
                         <option value="">전체</option>
                     </select>
                 </div>
-                <div class="checkbox-area">
+                <div class="checkbox-area" id="csat-toggle">
                     <input type="checkbox" id="filter-csat">
+                    <span class="checkbox-toggle"></span>
                     <label for="filter-csat">수능최저 있음</label>
                 </div>
+            </div>
+        </div>
+
+        <!-- Quick Keyword Chips -->
+        <div class="quick-chips" id="quick-chips">
+            <span class="quick-chips-label">빠른 검색</span>
+        </div>
+
+        <!-- Search Status -->
+        <div class="search-status">
+            <div class="search-status-left">
+                <span class="result-count" id="result-count"></span>
+                <div class="active-filters" id="active-filters"></div>
+            </div>
+            <div class="sort-group">
+                <label for="sort-select">정렬</label>
+                <select id="sort-select">
+                    <option value="name-asc">대학명 (가나다)</option>
+                    <option value="recruit-desc">모집인원 (많은 순)</option>
+                    <option value="recruit-asc">모집인원 (적은 순)</option>
+                </select>
             </div>
         </div>
 
@@ -381,32 +865,80 @@
         let allData = [];
         let filteredData = [];
         let currentPeriod = '수시';
+        let currentSort = 'name-asc';
+        let activeChip = '';
+
+        // Theme management
+        function initTheme() {
+            const saved = localStorage.getItem('theme');
+            if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                setTheme('dark');
+            } else {
+                setTheme('light');
+            }
+        }
+
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            document.getElementById('btn-light').classList.toggle('active', theme === 'light');
+            document.getElementById('btn-dark').classList.toggle('active', theme === 'dark');
+        }
+
+        document.getElementById('btn-light').addEventListener('click', () => setTheme('light'));
+        document.getElementById('btn-dark').addEventListener('click', () => setTheme('dark'));
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                setTheme(e.matches ? 'dark' : 'light');
+            }
+        });
+
+        initTheme();
+
+        // Keyboard shortcut (Ctrl+K / Cmd+K)
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                e.preventDefault();
+                document.getElementById('search-input').focus();
+            }
+            // Escape to clear search
+            if (e.key === 'Escape') {
+                const input = document.getElementById('search-input');
+                if (document.activeElement === input) {
+                    input.value = '';
+                    input.blur();
+                    applyFilters();
+                }
+            }
+        });
+
+        // Show correct shortcut hint based on OS
+        if (navigator.platform.includes('Mac')) {
+            document.getElementById('shortcut-hint').textContent = '\u2318K';
+        }
 
         async function init() {
             try {
                 const res = await fetch('data.json');
                 const raw = await res.json();
                 
-                // 유효한 데이터만 필터링
                 allData = raw.filter(d => d.university && d.university !== '미상' && d.university !== '');
                 
-                // 데이터 후처리
                 allData.forEach(d => {
-                    // 숫자 추출 (예: "10명", "(4)" -> 10, 4)
                     let m = d.recruitNum.match(/\d+/);
                     d.numVal = m ? parseInt(m[0]) : 0;
-                    
-                    // 수능최저 여부 확인
                     d.hasCsat = d.note && d.note.length > 0;
                 });
 
                 populateDropdowns();
+                generateQuickChips();
                 attachEvents();
-                applyFilters(); // 초기 렌더링
+                applyFilters();
             } catch (error) {
                 console.error("데이터 로딩 실패:", error);
                 document.getElementById('results-container').innerHTML = 
-                    '<div style="text-align:center; padding: 50px; background:#fff; border-radius:12px; color:#e11d48; font-weight:bold;">데이터를 불러올 수 없습니다. 로컬 서버 환경인지 확인해주세요.</div>';
+                    '<div class="empty-state"><div class="empty-state-icon">⚠</div><div class="empty-state-text">데이터를 불러올 수 없습니다.<br>로컬 서버 환경인지 확인해주세요.</div></div>';
             }
         }
 
@@ -421,20 +953,77 @@
             types.forEach(t => typeSelect.add(new Option(t, t)));
         }
 
+        function generateQuickChips() {
+            const chips = ['서울', '경기', '교과', '종합', '기회균형', '기초생활', '서류100', '면접'];
+            const container = document.getElementById('quick-chips');
+            chips.forEach(text => {
+                const chip = document.createElement('span');
+                chip.className = 'chip';
+                chip.textContent = text;
+                chip.addEventListener('click', () => {
+                    const input = document.getElementById('search-input');
+                    if (activeChip === text) {
+                        // Deactivate
+                        activeChip = '';
+                        input.value = '';
+                        chip.classList.remove('active');
+                    } else {
+                        // Activate
+                        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+                        activeChip = text;
+                        input.value = text;
+                        chip.classList.add('active');
+                    }
+                    applyFilters();
+                });
+                container.appendChild(chip);
+            });
+        }
+
         function attachEvents() {
             document.getElementById('btn-susi').addEventListener('click', () => setPeriod('수시'));
             document.getElementById('btn-jungsi').addEventListener('click', () => setPeriod('정시'));
             
-            document.getElementById('search-input').addEventListener('input', applyFilters);
+            let debounceTimer;
+            document.getElementById('search-input').addEventListener('input', () => {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    // Sync chip state
+                    const val = document.getElementById('search-input').value.trim();
+                    document.querySelectorAll('.chip').forEach(c => {
+                        c.classList.toggle('active', c.textContent === val);
+                    });
+                    activeChip = val;
+                    applyFilters();
+                }, 150);
+            });
             document.getElementById('filter-region').addEventListener('change', applyFilters);
             document.getElementById('filter-type').addEventListener('change', applyFilters);
-            document.getElementById('filter-csat').addEventListener('change', applyFilters);
+            document.getElementById('filter-csat').addEventListener('change', () => {
+                document.getElementById('csat-toggle').classList.toggle('checked', document.getElementById('filter-csat').checked);
+                applyFilters();
+            });
+            // Toggle via clicking the wrapper (but not the label or input which handle themselves)
+            document.getElementById('csat-toggle').addEventListener('click', (e) => {
+                if (e.target.tagName === 'INPUT' || e.target.tagName === 'LABEL') return;
+                const cb = document.getElementById('filter-csat');
+                cb.checked = !cb.checked;
+                document.getElementById('csat-toggle').classList.toggle('checked', cb.checked);
+                applyFilters();
+            });
+            document.getElementById('sort-select').addEventListener('change', (e) => {
+                currentSort = e.target.value;
+                render();
+            });
             
             document.getElementById('reset-btn').addEventListener('click', () => {
                 document.getElementById('search-input').value = '';
                 document.getElementById('filter-region').value = '';
                 document.getElementById('filter-type').value = '';
                 document.getElementById('filter-csat').checked = false;
+                document.getElementById('csat-toggle').classList.remove('checked');
+                document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+                activeChip = '';
                 applyFilters();
             });
         }
@@ -443,47 +1032,95 @@
             currentPeriod = period;
             document.getElementById('btn-susi').classList.toggle('active', period === '수시');
             document.getElementById('btn-jungsi').classList.toggle('active', period === '정시');
-            
-            // 탭 변경 시 하위 필터는 유지한 채로 리렌더링
             applyFilters();
         }
 
         function applyFilters() {
-            const keyword = document.getElementById('search-input').value.toLowerCase().trim();
+            const rawKeyword = document.getElementById('search-input').value.trim();
+            const keywords = rawKeyword.toLowerCase().split(/\s+/).filter(Boolean);
             const region = document.getElementById('filter-region').value;
             const type = document.getElementById('filter-type').value;
             const csat = document.getElementById('filter-csat').checked;
             
             filteredData = allData.filter(d => {
-                // 모집 시기 필터
                 if (d.period !== currentPeriod) return false;
-                
-                // 지역, 유형, 수능최저 필터
                 if (region && d.region !== region) return false;
                 if (type && d.type !== type) return false;
                 if (csat && !d.hasCsat) return false;
                 
-                // 텍스트 검색 (대학명, 전형명, 방법 등 포괄)
-                if (keyword) {
-                    const combinedString = `${d.university} ${d.region} ${d.name} ${d.type} ${d.method}`.toLowerCase();
-                    if (!combinedString.includes(keyword)) return false;
+                // Multi-keyword AND search
+                if (keywords.length > 0) {
+                    const combinedString = `${d.university} ${d.region} ${d.name} ${d.type} ${d.method} ${d.note || ''}`.toLowerCase();
+                    if (!keywords.every(kw => combinedString.includes(kw))) return false;
                 }
                 
                 return true;
             });
             
+            updateActiveFilters(rawKeyword, region, type, csat);
             render();
         }
 
+        function updateActiveFilters(keyword, region, type, csat) {
+            const container = document.getElementById('active-filters');
+            container.innerHTML = '';
+            
+            if (keyword) addFilterTag(container, `"${keyword}"`, () => {
+                document.getElementById('search-input').value = '';
+                document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+                activeChip = '';
+                applyFilters();
+            });
+            if (region) addFilterTag(container, region, () => {
+                document.getElementById('filter-region').value = '';
+                applyFilters();
+            });
+            if (type) addFilterTag(container, type, () => {
+                document.getElementById('filter-type').value = '';
+                applyFilters();
+            });
+            if (csat) addFilterTag(container, '수능최저', () => {
+                document.getElementById('filter-csat').checked = false;
+                applyFilters();
+            });
+        }
+
+        function addFilterTag(container, text, onRemove) {
+            const tag = document.createElement('span');
+            tag.className = 'active-filter-tag';
+            tag.innerHTML = `${text} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`;
+            tag.addEventListener('click', onRemove);
+            container.appendChild(tag);
+        }
+
+        function highlightText(text, keywords) {
+            if (!keywords.length || !text) return text || '-';
+            let result = text;
+            keywords.forEach(kw => {
+                const regex = new RegExp(`(${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+                result = result.replace(regex, '<mark>$1</mark>');
+            });
+            return result;
+        }
+
         function render() {
-            // 통계 업데이트
+            const rawKeyword = document.getElementById('search-input').value.trim();
+            const keywords = rawKeyword.toLowerCase().split(/\s+/).filter(Boolean);
+
             const uniqueUnivs = new Set(filteredData.map(d => d.university));
             const csatCount = filteredData.filter(d => d.hasCsat).length;
+            const totalRecruit = filteredData.reduce((sum, d) => sum + d.numVal, 0);
             
             document.getElementById('stat-univs').textContent = uniqueUnivs.size;
             document.getElementById('stat-csat').textContent = csatCount;
+            // document.getElementById('stat-entries').textContent = filteredData.length;
+            document.getElementById('stat-total-recruit').textContent = totalRecruit.toLocaleString();
             
-            // 대학별로 그룹핑
+            // Result count text
+            document.getElementById('result-count').innerHTML = 
+                `<strong>${uniqueUnivs.size}</strong>개 대학 검색됨`;
+            
+            // Group by university
             const groupedData = {};
             filteredData.forEach(d => {
                 if (!groupedData[d.university]) {
@@ -492,16 +1129,38 @@
                 groupedData[d.university].push(d);
             });
             
+            // Sort
+            let sortedEntries = Object.entries(groupedData);
+            switch (currentSort) {
+                case 'name-asc':
+                    sortedEntries.sort((a, b) => a[0].localeCompare(b[0], 'ko'));
+                    break;
+                case 'recruit-desc':
+                    sortedEntries.sort((a, b) => {
+                        const sumB = b[1].reduce((s, d) => s + d.numVal, 0);
+                        const sumA = a[1].reduce((s, d) => s + d.numVal, 0);
+                        return sumB - sumA;
+                    });
+                    break;
+                case 'recruit-asc':
+                    sortedEntries.sort((a, b) => {
+                        const sumA = a[1].reduce((s, d) => s + d.numVal, 0);
+                        const sumB = b[1].reduce((s, d) => s + d.numVal, 0);
+                        return sumA - sumB;
+                    });
+                    break;
+            }
+            
             const container = document.getElementById('results-container');
             container.innerHTML = '';
             
-            if (Object.keys(groupedData).length === 0) {
-                container.innerHTML = '<div style="text-align:center; padding: 60px; color:#6b7280; background:#fff; border-radius:12px; font-weight: 500;">조건에 맞는 검색 결과가 없습니다.</div>';
+            if (sortedEntries.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">조건에 맞는 검색 결과가 없습니다.<br><span style="font-size:13px;color:var(--text-muted)">다른 키워드나 필터를 시도해보세요.</span></div></div>';
                 return;
             }
             
-            // 그룹핑된 데이터 렌더링
-            for (const [uniName, items] of Object.entries(groupedData)) {
+            let delay = 0;
+            for (const [uniName, items] of sortedEntries) {
                 let totalNum = 0;
                 const tagSet = new Set();
                 
@@ -514,7 +1173,6 @@
                     }
                 });
                 
-                // 중복 태그 제거 및 HTML 생성
                 const uniqueTags = [];
                 const seenText = new Set();
                 tagSet.forEach(tag => {
@@ -529,26 +1187,28 @@
                     tagsHtml += `<span class="tag ${t.class}">${t.text}</span>`;
                 });
                 
-                // 테이블 로우 생성
                 let rowsHtml = items.map(d => `
                     <tr>
                         <td>${d.period} · 일반</td>
-                        <td>${d.region || '-'}</td>
+                        <td>${highlightText(d.region, keywords)}</td>
                         <td>-</td>
-                        <td>${d.type || '-'}</td>
-                        <td>${d.name || '-'}</td>
+                        <td>${highlightText(d.type, keywords)}</td>
+                        <td>${highlightText(d.name, keywords)}</td>
                         <td class="td-num">${d.recruitNum || '-'}</td>
-                        <td>${d.method || '-'}</td>
-                        <td class="td-note">${d.note || '-'}</td>
+                        <td>${highlightText(d.method, keywords)}</td>
+                        <td class="td-note">${highlightText(d.note, keywords)}</td>
                     </tr>
                 `).join('');
                 
                 const block = document.createElement('div');
                 block.className = 'univ-block';
+                block.style.animationDelay = `${delay}ms`;
+                delay += 40;
+                
                 block.innerHTML = `
                     <div class="univ-header">
                         <div class="univ-title-tags">
-                            <h3>${uniName}</h3>
+                            <h3>${highlightText(uniName, keywords)}</h3>
                             <div class="tags">
                                 ${tagsHtml}
                             </div>
@@ -582,7 +1242,6 @@
             }
         }
 
-        // 초기화 실행
         init();
     </script>
 </body>
