@@ -922,7 +922,7 @@
         let filteredData = [];
         let currentPeriod = '수시';
         let currentSort = 'name-asc';
-        let activeChip = '';
+        
 
         // Theme management
         function initTheme() {
@@ -991,7 +991,7 @@
                 });
 
                 populateDropdowns();
-                generateQuickChips();
+                generateQuickChips(currentPeriod);
                 attachEvents();
                 applyFilters();
             } catch (error) {
@@ -1012,30 +1012,45 @@
             types.forEach(t => typeSelect.add(new Option(t, t)));
         }
 
-        function generateQuickChips() {
-            const chips = ['서울', '경기', '교과', '종합', '기회균형', '기초생활', '서류100', '면접'];
+        
+        function generateQuickChips(period) {
             const container = document.getElementById('quick-chips');
+            container.innerHTML = '<span class="quick-chips-label">빠른 검색</span>';
+            
+            const chips = period === '수시' ? ['서울', '경기', '교과', '종합'] : ['서울', '경기', '최저'];
+            
             chips.forEach(text => {
                 const chip = document.createElement('span');
                 chip.className = 'chip';
                 chip.textContent = text;
+                chip.dataset.keyword = text;
+                
                 chip.addEventListener('click', () => {
                     const input = document.getElementById('search-input');
-                    if (activeChip === text) {
-                        // Deactivate
-                        activeChip = '';
-                        input.value = '';
-                        chip.classList.remove('active');
+                    // '최저' 키워드는 필터에서 '수능최저'로 인식하게 하거나 단순 검색어로 쓰일 수 있음
+                    // 여기서는 텍스트 그대로 토글
+                    let keywords = input.value.trim().split(/\s+/).filter(Boolean);
+                    
+                    if (keywords.includes(text)) {
+                        keywords = keywords.filter(k => k !== text);
                     } else {
-                        // Activate
-                        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-                        activeChip = text;
-                        input.value = text;
-                        chip.classList.add('active');
+                        keywords.push(text);
                     }
+                    input.value = keywords.join(' ');
+                    
+                    syncChipsWithInput();
                     applyFilters();
                 });
                 container.appendChild(chip);
+            });
+            syncChipsWithInput();
+        }
+
+        function syncChipsWithInput() {
+            const input = document.getElementById('search-input');
+            const keywords = input.value.trim().split(/\s+/).filter(Boolean);
+            document.querySelectorAll('.chip').forEach(c => {
+                c.classList.toggle('active', keywords.includes(c.dataset.keyword));
             });
         }
 
@@ -1047,12 +1062,7 @@
             document.getElementById('search-input').addEventListener('input', () => {
                 clearTimeout(debounceTimer);
                 debounceTimer = setTimeout(() => {
-                    // Sync chip state
-                    const val = document.getElementById('search-input').value.trim();
-                    document.querySelectorAll('.chip').forEach(c => {
-                        c.classList.toggle('active', c.textContent === val);
-                    });
-                    activeChip = val;
+                    syncChipsWithInput();
                     applyFilters();
                 }, 150);
             });
@@ -1081,8 +1091,7 @@
                 document.getElementById('filter-type').value = '';
                 document.getElementById('filter-csat').checked = false;
                 document.getElementById('csat-toggle').classList.remove('checked');
-                document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-                activeChip = '';
+                syncChipsWithInput();
                 applyFilters();
             });
         }
@@ -1091,6 +1100,7 @@
             currentPeriod = period;
             document.getElementById('btn-susi').classList.toggle('active', period === '수시');
             document.getElementById('btn-jungsi').classList.toggle('active', period === '정시');
+            generateQuickChips(period);
             applyFilters();
         }
 
@@ -1126,8 +1136,7 @@
             
             if (keyword) addFilterTag(container, `"${keyword}"`, () => {
                 document.getElementById('search-input').value = '';
-                document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-                activeChip = '';
+                syncChipsWithInput();
                 applyFilters();
             });
             if (region) addFilterTag(container, region, () => {
