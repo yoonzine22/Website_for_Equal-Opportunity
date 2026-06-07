@@ -722,29 +722,85 @@
         /* Responsive */
         @media (max-width: 768px) {
             .container {
-                padding: 20px 16px 48px;
+                padding: 16px 12px 48px;
             }
-            .filter-section {
-                padding: 20px;
+            .header-row {
+                flex-direction: column;
+                align-items: stretch;
                 gap: 16px;
             }
+            .header-left {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .toggle-group {
+                width: 100%;
+            }
+            .toggle-btn {
+                flex: 1; /* 수시/정시 버튼이 모바일에서 반반씩 꽉 차게 */
+            }
+            .filter-section {
+                padding: 16px;
+                gap: 12px;
+            }
             .quick-chips {
-                padding: 12px 20px 16px;
+                padding: 12px 16px;
             }
             .search-area, .dropdown-area {
                 flex-direction: column;
                 align-items: stretch;
                 min-width: 100%;
             }
+            .input-group label {
+                font-size: 11px;
+            }
             .btn-reset { width: 100%; margin-top: 4px; }
-            .checkbox-area { justify-content: center; }
-            .univ-header { flex-direction: column; align-items: flex-start; padding: 16px 20px; }
-            .univ-total { text-align: left; margin-top: 4px; display: flex; align-items: baseline; gap: 8px; }
+            .checkbox-area { justify-content: space-between; }
+            .univ-header { 
+                flex-direction: column; 
+                align-items: flex-start; 
+                padding: 16px; 
+            }
+            .univ-title-tags {
+                gap: 10px;
+            }
+            .univ-title-tags h3 {
+                font-size: 20px;
+                width: 100%;
+            }
+            .univ-total { 
+                text-align: left; 
+                margin-top: 8px; 
+                display: flex; 
+                align-items: center; 
+                gap: 8px; 
+            }
             .total-num { display: inline; font-size: 22px; }
-            .total-label { display: inline; }
-            .summary-cards { grid-template-columns: 1fr 1fr; }
-            .header-row { margin-bottom: 20px; }
-            .search-status { flex-direction: column; align-items: flex-start; }
+            .total-label { display: inline; margin-top: 0; }
+            .summary-cards { 
+                grid-template-columns: 1fr; /* 모바일에서는 카드가 한 줄씩 크게 보이도록 */
+                gap: 12px;
+            }
+            .card {
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .card-number {
+                font-size: 28px;
+            }
+            .card-label {
+                margin-top: 0;
+            }
+            .search-status { flex-direction: column; align-items: flex-start; gap: 8px; }
+            .sort-group { width: 100%; justify-content: space-between; }
+            
+            /* 모바일 테이블 최적화 */
+            th, td {
+                padding: 12px 8px;
+                font-size: 13px;
+            }
         }
 
         /* Scrollbar */
