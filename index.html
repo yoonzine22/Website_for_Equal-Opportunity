@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2027학년도 특별전형 대학 검색</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <style>
+        :root {
+            --bg-color: #f5f5f5;
+            --white: #ffffff;
+            --teal: #0d9488;
+            --teal-hover: #0f766e;
+            --teal-light: #ccfbf1;
+            --teal-dark: #115e59;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-500: #6b7280;
+            --gray-800: #1f2937;
+            --orange: #ea580c;
+            --orange-light: #ffedd5;
+            --red: #e11d48;
+            --red-light: #ffe4e6;
+            --border-radius: 12px;
+        }
+
+        body {
+            font-family: 'Pretendard', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--gray-800);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        /* Header */
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .disclaimer {
+            font-weight: 700;
+            color: var(--gray-800);
+            font-size: 18px;
+        }
+        .toggle-group {
+            display: flex;
+            background: var(--white);
+            border-radius: 8px;
+            border: 1px solid var(--gray-300);
+            overflow: hidden;
+        }
+        .toggle-btn {
+            padding: 10px 32px;
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--gray-500);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .toggle-btn.active {
+            background: var(--teal);
+            color: var(--white);
+        }
+
+        /* Summary Cards */
+        .summary-cards {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .card {
+            flex: 1;
+            background: var(--white);
+            padding: 24px 32px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            border: 1px solid var(--gray-200);
+        }
+        .card-number {
+            font-size: 40px;
+            font-weight: 800;
+            color: var(--teal);
+            line-height: 1;
+        }
+        .card-label {
+            font-size: 15px;
+            color: var(--gray-500);
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        /* Search & Filter Section */
+        .filter-section {
+            background: var(--white);
+            padding: 24px 32px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            border: 1px solid var(--gray-200);
+            margin-bottom: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: space-between;
+        }
+        .search-area, .dropdown-area {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+        .search-area {
+            flex: 1;
+            min-width: 320px;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            flex: 1;
+        }
+        .input-group label {
+            font-size: 13px;
+            color: var(--gray-500);
+            font-weight: 700;
+        }
+        .input-group input, .input-group select {
+            padding: 12px 16px;
+            border: 1px solid var(--gray-300);
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+        .input-group input:focus, .input-group select:focus {
+            border-color: var(--teal);
+        }
+        .btn-reset {
+            padding: 0 24px;
+            background: var(--teal);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            height: 45px;
+            transition: background 0.2s;
+        }
+        .btn-reset:hover {
+            background: var(--teal-hover);
+        }
+        
+        .checkbox-area {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            height: 45px;
+            padding: 0 8px;
+        }
+        .checkbox-area input {
+            width: 20px;
+            height: 20px;
+            accent-color: var(--teal);
+            cursor: pointer;
+        }
+        .checkbox-area label {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--gray-800);
+            cursor: pointer;
+        }
+
+        /* Univ Block */
+        .univ-block {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            border: 1px solid var(--gray-200);
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .univ-header {
+            background: #f8fafc;
+            padding: 20px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--gray-200);
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .univ-title-tags {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .univ-title-tags h3 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--gray-800);
+        }
+        .tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+            border: 1px solid transparent;
+        }
+        .tag-region { background: var(--white); color: var(--teal); border-color: var(--gray-200); }
+        .tag-period { background: var(--white); color: var(--orange); border-color: var(--gray-200); }
+        .tag-type { background: var(--white); color: var(--teal); border-color: var(--gray-200); }
+        .tag-special { background: var(--white); color: var(--red); border-color: var(--gray-200); }
+
+        .univ-total {
+            text-align: right;
+        }
+        .total-num {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--teal);
+            line-height: 1;
+            display: block;
+        }
+        .total-label {
+            font-size: 13px;
+            color: var(--gray-500);
+            font-weight: 600;
+            margin-top: 4px;
+            display: block;
+        }
+
+        /* Table */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 900px;
+            table-layout: fixed; /* 고정 레이아웃 사용 */
+        }
+        /* 각 칼럼에 고유 면적(비율) 할당 */
+        th:nth-child(1), td:nth-child(1) { width: 12%; text-align: center; } /* 모집/계열 (중앙 정렬) */
+        th:nth-child(2), td:nth-child(2) { width: 8%; text-align: center; }  /* 지역 (중앙 정렬) */
+        th:nth-child(3), td:nth-child(3) { width: 6%; text-align: center; }  /* 군 (중앙 정렬) */
+        th:nth-child(4), td:nth-child(4) { width: 8%; text-align: center; }  /* 유형 (중앙 정렬) */
+        th:nth-child(5), td:nth-child(5) { width: 22%; text-align: left; } /* 전형명 (좌측 정렬 유지) */
+        th:nth-child(6), td:nth-child(6) { width: 8%; text-align: center; }  /* 인원 (중앙 정렬) */
+        th:nth-child(7), td:nth-child(7) { width: 24%; text-align: left; } /* 전형방법 (좌측 정렬 유지) */
+        th:nth-child(8), td:nth-child(8) { width: 12%; text-align: left; } /* 비고 (좌측 정렬 유지) */
+
+        th, td {
+            padding: 16px 12px;
+            font-size: 14px;
+            border-bottom: 1px solid var(--gray-200);
+            word-break: keep-all; /* 단어 단위로 줄바꿈 (한국어 타이포그래피에 적합) */
+            overflow-wrap: break-word; /* 필요시 강제 줄바꿈 */
+            vertical-align: middle; /* 상하 기준 중앙 정렬로 변경 */
+            line-height: 1.5;
+        }
+        th {
+            background: var(--white);
+            color: var(--gray-500);
+            font-weight: 600;
+            font-size: 13px;
+        }
+        td {
+            color: var(--gray-800);
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .td-num {
+            color: var(--teal);
+            font-weight: 800;
+            font-size: 15px;
+        }
+        .td-note {
+            color: var(--gray-500);
+            font-size: 13px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .search-area, .dropdown-area {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .search-area { min-width: 100%; }
+            .btn-reset { width: 100%; margin-top: 8px; }
+            .checkbox-area { margin-top: 8px; }
+            .univ-header { flex-direction: column; align-items: flex-start; }
+            .univ-total { text-align: left; margin-top: 8px; display: flex; align-items: baseline; gap: 8px; }
+            .total-num { display: inline; }
+            .total-label { display: inline; }
+            .summary-cards { flex-direction: column; gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header-row">
+            <div class="disclaimer">모집인원은 변경될 수 있습니다</div>
+            <div class="toggle-group">
+                <button class="toggle-btn active" id="btn-susi">수시</button>
+                <button class="toggle-btn" id="btn-jungsi">정시</button>
+            </div>
+        </div>
+
+        <!-- Summary Cards -->
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-number" id="stat-univs">0</div>
+                <div class="card-label">대학</div>
+            </div>
+            <div class="card">
+                <div class="card-number" id="stat-csat">0</div>
+                <div class="card-label">수능최저 표기</div>
+            </div>
+        </div>
+
+        <!-- Search & Filter -->
+        <div class="filter-section">
+            <div class="search-area">
+                <div class="input-group">
+                    <label for="search-input">검색</label>
+                    <input type="text" id="search-input" placeholder="대학명, 지역, 전형명 검색">
+                </div>
+                <button id="reset-btn" class="btn-reset">필터 초기화</button>
+            </div>
+            <div class="dropdown-area">
+                <div class="input-group">
+                    <label for="filter-type">계열/유형</label>
+                    <select id="filter-type">
+                        <option value="">전체</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="filter-region">지역</label>
+                    <select id="filter-region">
+                        <option value="">전체</option>
+                    </select>
+                </div>
+                <div class="checkbox-area">
+                    <input type="checkbox" id="filter-csat">
+                    <label for="filter-csat">수능최저 있음</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results-container">
+            <!-- 데이터 렌더링 영역 -->
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let filteredData = [];
+        let currentPeriod = '수시';
+
+        async function init() {
+            try {
+                const res = await fetch('data.json');
+                const raw = await res.json();
+                
+                // 유효한 데이터만 필터링
+                allData = raw.filter(d => d.university && d.university !== '미상' && d.university !== '');
+                
+                // 데이터 후처리
+                allData.forEach(d => {
+                    // 숫자 추출 (예: "10명", "(4)" -> 10, 4)
+                    let m = d.recruitNum.match(/\d+/);
+                    d.numVal = m ? parseInt(m[0]) : 0;
+                    
+                    // 수능최저 여부 확인
+                    d.hasCsat = d.note && d.note.length > 0;
+                });
+
+                populateDropdowns();
+                attachEvents();
+                applyFilters(); // 초기 렌더링
+            } catch (error) {
+                console.error("데이터 로딩 실패:", error);
+                document.getElementById('results-container').innerHTML = 
+                    '<div style="text-align:center; padding: 50px; background:#fff; border-radius:12px; color:#e11d48; font-weight:bold;">데이터를 불러올 수 없습니다. 로컬 서버 환경인지 확인해주세요.</div>';
+            }
+        }
+
+        function populateDropdowns() {
+            const regions = [...new Set(allData.map(d => d.region))].filter(Boolean).sort();
+            const types = [...new Set(allData.map(d => d.type))].filter(Boolean).sort();
+            
+            const regSelect = document.getElementById('filter-region');
+            regions.forEach(r => regSelect.add(new Option(r, r)));
+            
+            const typeSelect = document.getElementById('filter-type');
+            types.forEach(t => typeSelect.add(new Option(t, t)));
+        }
+
+        function attachEvents() {
+            document.getElementById('btn-susi').addEventListener('click', () => setPeriod('수시'));
+            document.getElementById('btn-jungsi').addEventListener('click', () => setPeriod('정시'));
+            
+            document.getElementById('search-input').addEventListener('input', applyFilters);
+            document.getElementById('filter-region').addEventListener('change', applyFilters);
+            document.getElementById('filter-type').addEventListener('change', applyFilters);
+            document.getElementById('filter-csat').addEventListener('change', applyFilters);
+            
+            document.getElementById('reset-btn').addEventListener('click', () => {
+                document.getElementById('search-input').value = '';
+                document.getElementById('filter-region').value = '';
+                document.getElementById('filter-type').value = '';
+                document.getElementById('filter-csat').checked = false;
+                applyFilters();
+            });
+        }
+
+        function setPeriod(period) {
+            currentPeriod = period;
+            document.getElementById('btn-susi').classList.toggle('active', period === '수시');
+            document.getElementById('btn-jungsi').classList.toggle('active', period === '정시');
+            
+            // 탭 변경 시 하위 필터는 유지한 채로 리렌더링
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const keyword = document.getElementById('search-input').value.toLowerCase().trim();
+            const region = document.getElementById('filter-region').value;
+            const type = document.getElementById('filter-type').value;
+            const csat = document.getElementById('filter-csat').checked;
+            
+            filteredData = allData.filter(d => {
+                // 모집 시기 필터
+                if (d.period !== currentPeriod) return false;
+                
+                // 지역, 유형, 수능최저 필터
+                if (region && d.region !== region) return false;
+                if (type && d.type !== type) return false;
+                if (csat && !d.hasCsat) return false;
+                
+                // 텍스트 검색 (대학명, 전형명, 방법 등 포괄)
+                if (keyword) {
+                    const combinedString = `${d.university} ${d.region} ${d.name} ${d.type} ${d.method}`.toLowerCase();
+                    if (!combinedString.includes(keyword)) return false;
+                }
+                
+                return true;
+            });
+            
+            render();
+        }
+
+        function render() {
+            // 통계 업데이트
+            const uniqueUnivs = new Set(filteredData.map(d => d.university));
+            const csatCount = filteredData.filter(d => d.hasCsat).length;
+            
+            document.getElementById('stat-univs').textContent = uniqueUnivs.size;
+            document.getElementById('stat-csat').textContent = csatCount;
+            
+            // 대학별로 그룹핑
+            const groupedData = {};
+            filteredData.forEach(d => {
+                if (!groupedData[d.university]) {
+                    groupedData[d.university] = [];
+                }
+                groupedData[d.university].push(d);
+            });
+            
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
+            
+            if (Object.keys(groupedData).length === 0) {
+                container.innerHTML = '<div style="text-align:center; padding: 60px; color:#6b7280; background:#fff; border-radius:12px; font-weight: 500;">조건에 맞는 검색 결과가 없습니다.</div>';
+                return;
+            }
+            
+            // 그룹핑된 데이터 렌더링
+            for (const [uniName, items] of Object.entries(groupedData)) {
+                let totalNum = 0;
+                const tagSet = new Set();
+                
+                items.forEach(d => {
+                    totalNum += d.numVal;
+                    if (d.region) tagSet.add({ text: d.region, class: 'tag-region' });
+                    if (d.type) tagSet.add({ text: d.type, class: 'tag-type' });
+                    if (d.name.includes('약학') || d.name.includes('의예') || d.name.includes('간호')) {
+                        tagSet.add({ text: '의약/간호', class: 'tag-special' });
+                    }
+                });
+                
+                // 중복 태그 제거 및 HTML 생성
+                const uniqueTags = [];
+                const seenText = new Set();
+                tagSet.forEach(tag => {
+                    if (!seenText.has(tag.text)) {
+                        seenText.add(tag.text);
+                        uniqueTags.push(tag);
+                    }
+                });
+
+                let tagsHtml = `<span class="tag tag-period">${currentPeriod}</span>`;
+                uniqueTags.forEach(t => {
+                    tagsHtml += `<span class="tag ${t.class}">${t.text}</span>`;
+                });
+                
+                // 테이블 로우 생성
+                let rowsHtml = items.map(d => `
+                    <tr>
+                        <td>${d.period} · 일반</td>
+                        <td>${d.region || '-'}</td>
+                        <td>-</td>
+                        <td>${d.type || '-'}</td>
+                        <td>${d.name || '-'}</td>
+                        <td class="td-num">${d.recruitNum || '-'}</td>
+                        <td>${d.method || '-'}</td>
+                        <td class="td-note">${d.note || '-'}</td>
+                    </tr>
+                `).join('');
+                
+                const block = document.createElement('div');
+                block.className = 'univ-block';
+                block.innerHTML = `
+                    <div class="univ-header">
+                        <div class="univ-title-tags">
+                            <h3>${uniName}</h3>
+                            <div class="tags">
+                                ${tagsHtml}
+                            </div>
+                        </div>
+                        <div class="univ-total">
+                            <span class="total-num">${totalNum}</span>
+                            <span class="total-label">표시 모집인원</span>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>모집/계열</th>
+                                    <th>지역</th>
+                                    <th>군</th>
+                                    <th>유형</th>
+                                    <th>전형명</th>
+                                    <th>인원</th>
+                                    <th>전형방법</th>
+                                    <th>수능최저/비고</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${rowsHtml}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+                container.appendChild(block);
+            }
+        }
+
+        // 초기화 실행
+        init();
+    </script>
+</body>
+</html>
