@@ -1,6 +1,7 @@
 [
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "감리교신학대",
     "type": "교과",
@@ -11,6 +12,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "강서대",
     "type": "교과",
@@ -21,6 +23,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "경기대",
     "type": "교과",
@@ -31,6 +34,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "국민대",
     "type": "종합",
@@ -41,6 +45,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "덕성여대",
     "type": "종합",
@@ -51,6 +56,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "삼육대",
     "type": "종합",
@@ -61,6 +67,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "과학기술대",
     "type": "종합",
@@ -71,6 +78,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "교대",
     "type": "종합",
@@ -81,6 +89,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "기독대",
     "type": "교과",
@@ -91,6 +100,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "한영대",
     "type": "교과",
@@ -101,6 +111,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "성공회대",
     "type": "교과",
@@ -111,6 +122,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "장로회신학대",
     "type": "종합",
@@ -121,6 +133,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "중앙대",
     "type": "종합",
@@ -131,6 +144,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "총신대",
     "type": "종합",
@@ -141,6 +155,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "한국성서대",
     "type": "교과",
@@ -151,6 +166,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "홍익대",
     "type": "종합",
@@ -161,6 +177,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "인천",
     "university": "경인교대",
     "type": "",
@@ -171,6 +188,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "인천",
     "university": "가톨릭대",
     "type": "",
@@ -181,6 +199,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "강남대",
     "type": "",
@@ -191,6 +210,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "경기대",
     "type": "",
@@ -201,6 +221,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "국립한국교통대",
     "type": "",
@@ -211,6 +232,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "단국대",
     "type": "",
@@ -221,6 +243,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "대진대",
     "type": "",
@@ -231,6 +254,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "동양대",
     "type": "",
@@ -241,6 +265,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "신학대",
     "type": "",
@@ -251,6 +276,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "성결대",
     "type": "",
@@ -261,6 +287,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "신한대",
     "type": "",
@@ -271,6 +298,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "신한대",
     "type": "",
@@ -281,6 +309,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "아신대",
     "type": "",
@@ -291,6 +320,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "안양대",
     "type": "",
@@ -301,6 +331,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "용인대",
     "type": "",
@@ -311,6 +342,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "을지대",
     "type": "",
@@ -321,6 +353,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "서울",
     "university": "을지대",
     "type": "",
@@ -331,6 +364,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "중앙대",
     "type": "",
@@ -341,6 +375,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "칼빈대",
     "type": "",
@@ -351,6 +386,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "평택대",
     "type": "",
@@ -361,6 +397,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "한경국립대",
     "type": "",
@@ -371,6 +408,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "한경국립대",
     "type": "",
@@ -381,6 +419,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "한신대",
     "type": "",
@@ -391,6 +430,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "협성대",
     "type": "",
@@ -401,6 +441,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경기",
     "university": "화성의과학대",
     "type": "",
@@ -411,6 +452,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "가톨릭관동대",
     "type": "",
@@ -421,6 +463,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "국립강릉원주대",
     "type": "",
@@ -431,6 +474,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "국립강릉원주대",
     "type": "",
@@ -441,6 +485,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "경동대",
     "type": "",
@@ -451,6 +496,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "상지대",
     "type": "",
@@ -461,6 +507,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "연세대",
     "type": "",
@@ -471,6 +518,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "춘천교대",
     "type": "",
@@ -481,6 +529,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "한라대",
     "type": "",
@@ -491,6 +540,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "강원",
     "university": "한림대",
     "type": "",
@@ -501,6 +551,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대전",
     "university": "건양대",
     "type": "",
@@ -511,6 +562,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대전",
     "university": "국립한밭대",
     "type": "",
@@ -521,6 +573,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대전",
     "university": "대전대",
     "type": "",
@@ -531,6 +584,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대전",
     "university": "목원대",
     "type": "",
@@ -541,6 +595,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대전",
     "university": "배재대",
     "type": "",
@@ -551,6 +606,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대전",
     "university": "우송대",
     "type": "",
@@ -561,6 +617,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "충남대",
     "type": "",
@@ -571,6 +628,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "한남대",
     "type": "",
@@ -581,6 +639,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "세종",
     "university": "홍익대",
     "type": "",
@@ -591,6 +650,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "건양대",
     "type": "",
@@ -601,6 +661,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "공주교대",
     "type": "",
@@ -611,6 +672,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "나사렛대",
     "type": "",
@@ -621,6 +683,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "남서울대",
     "type": "",
@@ -631,6 +694,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "단국대",
     "type": "",
@@ -641,6 +705,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "백석대",
     "type": "",
@@ -651,6 +716,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "선문대",
     "type": "",
@@ -661,6 +727,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "순천향대",
     "type": "",
@@ -671,6 +738,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "유원대",
     "type": "",
@@ -681,6 +749,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "중부대",
     "type": "",
@@ -691,6 +760,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "청운대",
     "type": "",
@@ -701,6 +771,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "한서대",
     "type": "",
@@ -711,6 +782,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "한서대",
     "type": "",
@@ -721,6 +793,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "호서대",
     "type": "",
@@ -731,6 +804,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충남",
     "university": "호서대",
     "type": "",
@@ -741,6 +815,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "가톨릭꽃동네대",
     "type": "",
@@ -751,6 +826,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "건국대",
     "type": "",
@@ -761,6 +837,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "국립한국교통대",
     "type": "",
@@ -771,6 +848,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "국립한국교통대",
     "type": "",
@@ -781,6 +859,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "극동대",
     "type": "",
@@ -791,6 +870,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "서원대",
     "type": "",
@@ -801,6 +881,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "세명대",
     "type": "",
@@ -811,6 +892,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "유원대",
     "type": "",
@@ -821,6 +903,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "청주교대",
     "type": "",
@@ -831,6 +914,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "청주대",
     "type": "",
@@ -841,6 +925,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "충북대",
     "type": "",
@@ -851,6 +936,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "충북",
     "university": "한국교원대",
     "type": "",
@@ -861,6 +947,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "경북대",
     "type": "",
@@ -871,6 +958,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "교대",
     "type": "",
@@ -881,6 +969,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경북",
     "university": "경북대",
     "type": "",
@@ -891,6 +980,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경북",
     "university": "국립경국대",
     "type": "",
@@ -901,6 +991,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경북",
     "university": "경운대",
     "type": "",
@@ -911,6 +1002,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경북",
     "university": "경일대",
     "type": "",
@@ -921,6 +1013,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경북",
     "university": "김천대",
     "type": "",
@@ -931,6 +1024,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "가톨릭대",
     "type": "",
@@ -941,6 +1035,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "대구대",
     "type": "",
@@ -951,6 +1046,7 @@
   },
   {
     "period": "수시",
+    "track": "한의예과",
     "region": "대구",
     "university": "한의대",
     "type": "",
@@ -961,6 +1057,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "동국대",
     "type": "",
@@ -971,6 +1068,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "동양대",
     "type": "",
@@ -981,6 +1079,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "신경주대",
     "type": "",
@@ -991,6 +1090,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "영남신학대",
     "type": "",
@@ -1001,6 +1101,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "위덕대",
     "type": "",
@@ -1011,6 +1112,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "포항공과대",
     "type": "",
@@ -1021,6 +1123,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "대구",
     "university": "한동대",
     "type": "",
@@ -1031,6 +1134,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "경성대",
     "type": "",
@@ -1041,6 +1145,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "고신대",
     "type": "",
@@ -1051,6 +1156,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "국립부경대",
     "type": "",
@@ -1061,6 +1167,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "국립한국해양대",
     "type": "",
@@ -1071,6 +1178,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "동명대",
     "type": "",
@@ -1081,6 +1189,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "동서대",
     "type": "",
@@ -1091,6 +1200,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "가톨릭대",
     "type": "",
@@ -1101,6 +1211,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "교대",
     "type": "",
@@ -1111,6 +1222,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "부산대",
     "type": "",
@@ -1121,6 +1233,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "외국어대",
     "type": "",
@@ -1131,6 +1244,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "신라대",
     "type": "",
@@ -1141,6 +1255,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "영산대",
     "type": "",
@@ -1151,6 +1266,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "울산",
     "university": "울산대",
     "type": "",
@@ -1161,6 +1277,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "가야대",
     "type": "",
@@ -1171,6 +1288,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "경남대",
     "type": "",
@@ -1181,6 +1299,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "경상국립대",
     "type": "",
@@ -1191,6 +1310,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "경상국립대",
     "type": "",
@@ -1201,6 +1321,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "경상국립대",
     "type": "",
@@ -1211,6 +1332,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "국립창원대",
     "type": "",
@@ -1221,6 +1343,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "부산대",
     "type": "",
@@ -1231,6 +1354,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "부산대",
     "type": "",
@@ -1241,6 +1365,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "장신대",
     "type": "",
@@ -1251,6 +1376,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "영산대",
     "type": "",
@@ -1261,6 +1387,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "인제대",
     "type": "",
@@ -1271,6 +1398,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "부산",
     "university": "진주교대",
     "type": "",
@@ -1281,6 +1409,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "경남",
     "university": "창신대",
     "type": "",
@@ -1291,6 +1420,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "광주교대",
     "type": "",
@@ -1301,6 +1431,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "광주대",
     "type": "",
@@ -1311,6 +1442,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "여대",
     "type": "",
@@ -1321,6 +1453,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "남부대",
     "type": "",
@@ -1331,6 +1464,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "송원대",
     "type": "",
@@ -1341,6 +1475,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "조선대",
     "type": "",
@@ -1351,6 +1486,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "광주",
     "university": "호남대",
     "type": "",
@@ -1361,6 +1497,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "국립목포대",
     "type": "",
@@ -1371,6 +1508,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "국립목포해양대",
     "type": "",
@@ -1381,6 +1519,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "국립순천대",
     "type": "",
@@ -1391,6 +1530,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "동신대",
     "type": "",
@@ -1401,6 +1541,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "목포가톨릭대",
     "type": "",
@@ -1411,6 +1552,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "세한대",
     "type": "",
@@ -1421,6 +1563,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전남",
     "university": "초당대",
     "type": "",
@@ -1431,6 +1574,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "국립군산대",
     "type": "",
@@ -1441,6 +1585,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "예수대",
     "type": "",
@@ -1451,6 +1596,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "예원예술대",
     "type": "",
@@ -1461,6 +1607,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "우석대",
     "type": "",
@@ -1471,6 +1618,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "원광대",
     "type": "",
@@ -1481,6 +1629,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "전북대",
     "type": "",
@@ -1491,6 +1640,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "전북대",
     "type": "",
@@ -1501,6 +1651,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "전주교대",
     "type": "",
@@ -1511,6 +1662,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "전주대",
     "type": "",
@@ -1521,6 +1673,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "한일장신대",
     "type": "",
@@ -1531,6 +1684,7 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "전북",
     "university": "호원대",
     "type": "",
@@ -1541,16 +1695,18 @@
   },
   {
     "period": "수시",
+    "track": "일반계열",
     "region": "제주",
     "university": "제주국제대",
     "type": "",
     "name": "(제주)교과 기초생활수급자 및 차상위계층",
     "recruitNum": "12",
-    "method": "학생부 100□2 (수시모집 ) 의치약한수계열 1.의예과",
+    "method": "학생부 100",
     "note": ""
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "강원",
     "university": "가톨릭관동대",
     "type": "",
@@ -1561,6 +1717,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "강원",
     "university": "연세대",
     "type": "",
@@ -1571,6 +1728,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "대전",
     "university": "을지대",
     "type": "",
@@ -1581,6 +1739,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "충남",
     "university": "충남대",
     "type": "",
@@ -1591,6 +1750,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "충남",
     "university": "순천향대",
     "type": "",
@@ -1601,6 +1761,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "경북",
     "university": "동국대",
     "type": "",
@@ -1611,6 +1772,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "경남",
     "university": "인제대",
     "type": "",
@@ -1621,6 +1783,7 @@
   },
   {
     "period": "수시",
+    "track": "의예과",
     "region": "전북",
     "university": "원광대",
     "type": "",
@@ -1631,6 +1794,7 @@
   },
   {
     "period": "수시",
+    "track": "약학과",
     "region": "전북",
     "university": "원광대",
     "type": "",
@@ -1641,6 +1805,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "덕성여대",
     "type": "종합",
@@ -1651,6 +1816,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "삼육대",
     "type": "종합",
@@ -1661,6 +1827,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "중앙대",
     "type": "종합",
@@ -1671,6 +1838,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "인천",
     "university": "가천대",
     "type": "",
@@ -1681,6 +1849,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "경기",
     "university": "가톨릭대",
     "type": "",
@@ -1691,6 +1860,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "강원",
     "university": "강원대",
     "type": "",
@@ -1701,6 +1871,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "대전",
     "university": "충남대",
     "type": "",
@@ -1711,6 +1882,7 @@
   },
   {
     "period": "수시",
+    "track": "약학과",
     "region": "대구",
     "university": "계명대",
     "type": "",
@@ -1721,6 +1893,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "경북",
     "university": "대구가톨릭대",
     "type": "",
@@ -1731,6 +1904,7 @@
   },
   {
     "period": "수시",
+    "track": "약학과",
     "region": "경북",
     "university": "영남대",
     "type": "",
@@ -1741,6 +1915,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "부산",
     "university": "경성대",
     "type": "",
@@ -1751,6 +1926,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "부산",
     "university": "부산대",
     "type": "",
@@ -1761,6 +1937,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "경남",
     "university": "인제대",
     "type": "",
@@ -1771,6 +1948,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "광주",
     "university": "전남대",
     "type": "",
@@ -1781,6 +1959,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전남",
     "university": "국립목포대",
     "type": "",
@@ -1791,6 +1970,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전남",
     "university": "국립순천대",
     "type": "",
@@ -1801,6 +1981,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전북",
     "university": "우석대",
     "type": "",
@@ -1811,6 +1992,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전북",
     "university": "원광대",
     "type": "",
@@ -1821,6 +2003,7 @@
   },
   {
     "period": "수시",
+    "track": "의예과",
     "region": "전북",
     "university": "전북대",
     "type": "",
@@ -1831,6 +2014,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "강원",
     "university": "상지대",
     "type": "",
@@ -1841,6 +2025,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "충북",
     "university": "세명대",
     "type": "",
@@ -1851,6 +2036,7 @@
   },
   {
     "period": "수시",
+    "track": "한의예과",
     "region": "경북",
     "university": "대구한의대",
     "type": "",
@@ -1861,6 +2047,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "경북",
     "university": "동국대",
     "type": "",
@@ -1871,6 +2058,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전남",
     "university": "동신대",
     "type": "",
@@ -1881,6 +2069,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전북",
     "university": "우석대",
     "type": "",
@@ -1891,6 +2080,7 @@
   },
   {
     "period": "수시",
+    "track": "의예과",
     "region": "전북",
     "university": "원광대",
     "type": "",
@@ -1901,6 +2091,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "대전",
     "university": "충남대",
     "type": "",
@@ -1911,6 +2102,7 @@
   },
   {
     "period": "수시",
+    "track": "의치약한수계열",
     "region": "전북",
     "university": "전북대",
     "type": "",
@@ -1921,16 +2113,7 @@
   },
   {
     "period": "정시",
-    "region": "미상",
-    "university": "미상",
-    "type": "",
-    "name": "지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
-    "recruitNum": "",
-    "method": "",
-    "note": ""
-  },
-  {
-    "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "건국대",
     "type": "",
@@ -1941,6 +2124,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "고려대",
     "type": "",
@@ -1951,6 +2135,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "동덕여대",
     "type": "",
@@ -1961,6 +2146,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "서강대",
     "type": "",
@@ -1971,6 +2157,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "서울대",
     "type": "",
@@ -1981,6 +2168,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "시립대",
     "type": "",
@@ -1991,6 +2179,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "연세대",
     "type": "",
@@ -2001,16 +2190,18 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "한국외국어대",
     "type": "",
     "name": "나 수능 기초생활수급자 및 차상위계층",
     "recruitNum": "42",
-    "method": "수능100지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "method": "수능100",
     "note": ""
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "서울",
     "university": "한양대",
     "type": "",
@@ -2021,6 +2212,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "인천",
     "university": "경인교대",
     "type": "",
@@ -2031,6 +2223,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "인천",
     "university": "인천대",
     "type": "",
@@ -2041,6 +2234,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "경기",
     "university": "경희대",
     "type": "",
@@ -2051,6 +2245,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "경기",
     "university": "동국대",
     "type": "",
@@ -2061,6 +2256,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "경기",
     "university": "아주대",
     "type": "",
@@ -2071,6 +2267,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "경기",
     "university": "한국외국어대",
     "type": "",
@@ -2081,6 +2278,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "경기",
     "university": "한양대",
     "type": "",
@@ -2091,6 +2289,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "세종",
     "university": "고려대",
     "type": "",
@@ -2101,6 +2300,7 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "대구",
     "university": "대구교대",
     "type": "",
@@ -2111,16 +2311,18 @@
   },
   {
     "period": "정시",
+    "track": "일반계열",
     "region": "광주",
     "university": "광신대",
     "type": "",
     "name": "(광주)가 교과 사회적배려대상자",
     "recruitNum": "8",
-    "method": "학생부 60+면접40□4 (정시모집 ) 의치약한수계열 1.의예과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법",
-    "note": "수능최저학력 기준"
+    "method": "학생부 60+면접40",
+    "note": ""
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "고려대",
     "type": "",
@@ -2131,6 +2333,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "서울대",
     "type": "",
@@ -2141,6 +2344,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "연세대",
     "type": "",
@@ -2151,16 +2355,18 @@
   },
   {
     "period": "정시",
+    "track": "의예과",
     "region": "대구",
     "university": "계명대",
     "type": "",
     "name": "(대구)다 수능 기회균형",
     "recruitNum": "2",
-    "method": "수능100 - 2. 치의예과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "method": "수능100 - 2. 치의예과",
     "note": ""
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "경희대",
     "type": "",
@@ -2171,16 +2377,18 @@
   },
   {
     "period": "정시",
+    "track": "약학과",
     "region": "서울",
     "university": "연세대",
     "type": "",
     "name": "가 수능 연세한마음",
     "recruitNum": "1",
-    "method": "수능100 - 3. 약학과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "method": "수능100 - 3. 약학과",
     "note": ""
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "경희대",
     "type": "",
@@ -2191,6 +2399,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "동덕여대",
     "type": "",
@@ -2201,6 +2410,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "서울대",
     "type": "",
@@ -2211,6 +2421,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "숙명여대",
     "type": "",
@@ -2221,6 +2432,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "연세대",
     "type": "",
@@ -2231,6 +2443,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "중앙대",
     "type": "",
@@ -2241,6 +2454,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "경기",
     "university": "동국대",
     "type": "",
@@ -2251,6 +2465,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "경기",
     "university": "성균관대",
     "type": "",
@@ -2261,16 +2476,18 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "경기",
     "university": "아주대",
     "type": "",
     "name": "(수원)나 수능 기회균형",
     "recruitNum": "2",
-    "method": "수능100 -지역 대학 모집군 전형유형 전형명 모집인원 전형방법 비고",
+    "method": "수능100 -",
     "note": ""
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "경기",
     "university": "한양대",
     "type": "",
@@ -2281,6 +2498,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "세종",
     "university": "고려대",
     "type": "",
@@ -2291,6 +2509,7 @@
   },
   {
     "period": "정시",
+    "track": "약학과",
     "region": "충북",
     "university": "충북대",
     "type": "",
@@ -2301,16 +2520,18 @@
   },
   {
     "period": "정시",
+    "track": "의예과",
     "region": "경남",
     "university": "인제대",
     "type": "",
     "name": "(김해)가 수능 기초생활수급권자",
     "recruitNum": "3",
-    "method": "수능100 - 4. 수의예과 지역 대학 모집군 전형유형 전형명 모집인원 전형방법",
-    "note": "수능최저학력 기준"
+    "method": "수능100 - 4. 수의예과",
+    "note": ""
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "건국대",
     "type": "",
@@ -2321,6 +2542,7 @@
   },
   {
     "period": "정시",
+    "track": "의치약한수계열",
     "region": "서울",
     "university": "서울대",
     "type": "",
