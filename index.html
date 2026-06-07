@@ -1287,9 +1287,19 @@
                     tagsHtml += `<span class="tag ${t.class}">${t.text}</span>`;
                 });
                 
-                let rowsHtml = items.map(d => `
+                let rowsHtml = items.map(d => {
+                    let displayTrack = d.track;
+                    if (displayTrack === '일반계열') displayTrack = '일반';
+                    else if (displayTrack === '의예과') displayTrack = '의대';
+                    else if (displayTrack === '치의예과') displayTrack = '치대';
+                    else if (displayTrack === '약학과') displayTrack = '약대';
+                    else if (displayTrack === '한의예과') displayTrack = '한의대';
+                    else if (displayTrack === '수의예과') displayTrack = '수의대';
+                    else if (displayTrack === '의치약한수계열') displayTrack = '의약계열';
+                    
+                    return `
                     <tr>
-                        <td>${d.period} · ${d.track}</td>
+                        <td>${displayTrack}</td>
                         <td>${highlightText(d.region, keywords)}</td>
                         <td>-</td>
                         <td>${highlightText(d.type, keywords)}</td>
@@ -1298,7 +1308,7 @@
                         <td>${highlightText(d.method, keywords)}</td>
                         <td class="td-note">${highlightText(d.note, keywords)}</td>
                     </tr>
-                `).join('');
+                `}).join('');
                 
                 const block = document.createElement('div');
                 block.className = 'univ-block';
