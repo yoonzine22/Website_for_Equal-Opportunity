@@ -1046,7 +1046,7 @@
   },
   {
     "period": "수시",
-    "track": "한의예과",
+    "track": "일반계열",
     "region": "대구",
     "university": "한의대",
     "type": "",
@@ -1706,7 +1706,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "강원",
     "university": "가톨릭관동대",
     "type": "",
@@ -1717,7 +1717,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "강원",
     "university": "연세대",
     "type": "",
@@ -1728,7 +1728,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "대전",
     "university": "을지대",
     "type": "",
@@ -1739,7 +1739,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "충남",
     "university": "충남대",
     "type": "",
@@ -1750,7 +1750,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "충남",
     "university": "순천향대",
     "type": "",
@@ -1761,7 +1761,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "경북",
     "university": "동국대",
     "type": "",
@@ -1772,7 +1772,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "경남",
     "university": "인제대",
     "type": "",
@@ -1789,23 +1789,23 @@
     "type": "",
     "name": "(익산)종합 기회균형",
     "recruitNum": "3",
-    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23- 2.치의예과",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23-",
     "note": ""
   },
   {
     "period": "수시",
-    "track": "약학과",
+    "track": "의예과",
     "region": "전북",
     "university": "원광대",
     "type": "",
     "name": "(익산)종합 기회균형",
     "recruitNum": "2",
-    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23- 3.약학과",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23-",
     "note": ""
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "덕성여대",
     "type": "종합",
@@ -1816,7 +1816,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "삼육대",
     "type": "종합",
@@ -1827,7 +1827,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "중앙대",
     "type": "종합",
@@ -1838,7 +1838,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "인천",
     "university": "가천대",
     "type": "",
@@ -1849,7 +1849,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경기",
     "university": "가톨릭대",
     "type": "",
@@ -1860,7 +1860,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "강원",
     "university": "강원대",
     "type": "",
@@ -1871,7 +1871,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "대전",
     "university": "충남대",
     "type": "",
@@ -1893,7 +1893,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경북",
     "university": "대구가톨릭대",
     "type": "",
@@ -1915,7 +1915,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "부산",
     "university": "경성대",
     "type": "",
@@ -1926,7 +1926,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "부산",
     "university": "부산대",
     "type": "",
@@ -1937,7 +1937,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경남",
     "university": "인제대",
     "type": "",
@@ -1948,7 +1948,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "광주",
     "university": "전남대",
     "type": "",
@@ -1959,7 +1959,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "전남",
     "university": "국립목포대",
     "type": "",
@@ -1970,7 +1970,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "전남",
     "university": "국립순천대",
     "type": "",
@@ -1981,7 +1981,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "전북",
     "university": "우석대",
     "type": "",
@@ -1992,7 +1992,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "전북",
     "university": "원광대",
     "type": "",
@@ -2003,18 +2003,18 @@
   },
   {
     "period": "수시",
-    "track": "의예과",
+    "track": "약학과",
     "region": "전북",
     "university": "전북대",
     "type": "",
     "name": "(전주)종합 기회균형선발",
     "recruitNum": "3",
-    "method": "서류100 -4.한의예과",
+    "method": "서류100 -",
     "note": ""
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "강원",
     "university": "상지대",
     "type": "",
@@ -2025,7 +2025,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "충북",
     "university": "세명대",
     "type": "",
@@ -2036,7 +2036,7 @@
   },
   {
     "period": "수시",
-    "track": "한의예과",
+    "track": "의예과",
     "region": "경북",
     "university": "대구한의대",
     "type": "",
@@ -2047,7 +2047,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "경북",
     "university": "동국대",
     "type": "",
@@ -2058,7 +2058,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "전남",
     "university": "동신대",
     "type": "",
@@ -2069,7 +2069,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "전북",
     "university": "우석대",
     "type": "",
@@ -2086,12 +2086,12 @@
     "type": "",
     "name": "(익산)종합 기회균형",
     "recruitNum": "2",
-    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23- 5.수의예과",
+    "method": "1단계(5배수): 서류100 2단계: 1단계77+면접23-",
     "note": ""
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "대전",
     "university": "충남대",
     "type": "",
@@ -2102,7 +2102,7 @@
   },
   {
     "period": "수시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "전북",
     "university": "전북대",
     "type": "",
@@ -2322,7 +2322,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "서울",
     "university": "고려대",
     "type": "",
@@ -2333,7 +2333,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "서울",
     "university": "서울대",
     "type": "",
@@ -2344,7 +2344,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "서울",
     "university": "연세대",
     "type": "",
@@ -2361,12 +2361,12 @@
     "type": "",
     "name": "(대구)다 수능 기회균형",
     "recruitNum": "2",
-    "method": "수능100 - 2. 치의예과",
+    "method": "수능100 -",
     "note": ""
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "서울",
     "university": "경희대",
     "type": "",
@@ -2377,18 +2377,18 @@
   },
   {
     "period": "정시",
-    "track": "약학과",
+    "track": "의예과",
     "region": "서울",
     "university": "연세대",
     "type": "",
     "name": "가 수능 연세한마음",
     "recruitNum": "1",
-    "method": "수능100 - 3. 약학과",
+    "method": "수능100 -",
     "note": ""
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "경희대",
     "type": "",
@@ -2399,7 +2399,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "동덕여대",
     "type": "",
@@ -2410,7 +2410,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "서울대",
     "type": "",
@@ -2421,7 +2421,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "숙명여대",
     "type": "",
@@ -2432,7 +2432,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "연세대",
     "type": "",
@@ -2443,7 +2443,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "서울",
     "university": "중앙대",
     "type": "",
@@ -2454,7 +2454,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경기",
     "university": "동국대",
     "type": "",
@@ -2465,7 +2465,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경기",
     "university": "성균관대",
     "type": "",
@@ -2476,7 +2476,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경기",
     "university": "아주대",
     "type": "",
@@ -2487,7 +2487,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "경기",
     "university": "한양대",
     "type": "",
@@ -2498,7 +2498,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "약학과",
     "region": "세종",
     "university": "고려대",
     "type": "",
@@ -2520,18 +2520,18 @@
   },
   {
     "period": "정시",
-    "track": "의예과",
+    "track": "약학과",
     "region": "경남",
     "university": "인제대",
     "type": "",
     "name": "(김해)가 수능 기초생활수급권자",
     "recruitNum": "3",
-    "method": "수능100 - 4. 수의예과",
+    "method": "수능100 -",
     "note": ""
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "서울",
     "university": "건국대",
     "type": "",
@@ -2542,7 +2542,7 @@
   },
   {
     "period": "정시",
-    "track": "의치약한수계열",
+    "track": "의예과",
     "region": "서울",
     "university": "서울대",
     "type": "",
